@@ -192,7 +192,6 @@ CHENHARK   unc nlncon lower fixed
 CHNROSNB   unc nlncon nobnd fixed 
 CHNRSBNE   equ lincon nobnd fixed 
 CHNRSNBM   unc nlncon nobnd fixed 
-CHNRSNBM   unc nlncon nobnd fixed 
 CLIFF      unc nlncon nobnd fixed 
 CLNLBEAM   equ lincon boxed fixed 
 CLPLATEA   unc nlncon boxed fixed 

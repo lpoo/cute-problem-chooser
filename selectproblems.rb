@@ -54,12 +54,19 @@ end
 
 puts options
 
-f = File.open("sif.url","r")
+class_file = File.open("sif.class","r")
+decoder_file = File.open("sif.decoder","r")
 
-f.each { |line| 
-  name = line.split[0]
-  nvar = line.split[1].to_i
-  ncon = line.split[2].to_i
+class_file.each.zip(decoder_file.each).each do |line1, line2|
+  name = line1.split[0]
+
+  if (name != line2.split[0])
+    raise "#{name} not equal #{line2.split[0]}"
+  end
+
+  nvar = line1.split[1].to_i
+  ncon = line1.split[2].to_i
+
 
   if (options["min_nvar"].to_i <= nvar &&
       nvar <= options["max_nvar"].to_i &&
@@ -67,6 +74,7 @@ f.each { |line|
       ncon <= options["max_ncon"].to_i)
     puts name
   end
-}
+end
 
-f.close()
+decoder_file.close()
+class_file.close()

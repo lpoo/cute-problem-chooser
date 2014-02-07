@@ -192,7 +192,6 @@ CHENHARK          V         V quadrt bnd reg 2 A N
 CHNROSNB          V         0 sumsqr unc reg 2 A N
 CHNRSBNE          V         V notdef oth reg 2 A N
 CHNRSNBM          V         0 sumsqr unc reg 2 A N
-CKOEHELB          2         0 sumsqr unc reg 2 R N
 CLIFF             2         0 others unc reg 2 A N
 CLNLBEAM          V         V others oth reg 2 M N
 CLPLATEA          V         0 others fix reg 2 M N
