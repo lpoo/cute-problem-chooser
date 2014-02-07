@@ -51,13 +51,14 @@ def case_regular (regular)
   end
 end
 
+# Alternative: Use classall to obtain a similar content
 require 'open-uri'
 require 'nokogiri'
 
 doc = Nokogiri::HTML(open('http://www.cuter.rl.ac.uk/Problems/mastsif.shtml'))
 td = doc.xpath("//td")
 
-f = File.open("sif.url","w")
+f = File.open("sif.class","w")
 
 begin
   td.each_slice(3) { |a| 
