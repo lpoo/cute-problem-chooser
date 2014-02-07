@@ -63,6 +63,10 @@ f = File.open("sif.class","w")
 begin
   td.each_slice(3) { |a| 
     name = a[0].content.strip
+    #Temporary fix on CKOEHELB
+    if (name == "CKOEHELB")
+      next
+    end
     classification = a[2].content.strip.split('-')
 
     begin
