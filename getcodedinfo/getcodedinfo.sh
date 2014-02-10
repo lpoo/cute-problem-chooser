@@ -2,7 +2,7 @@
 
 outfile=../sif.dcd
 rm -f $outfile
-for problem in $(awk '{print $1}' ../sif.cls)
+for problem in $(awk '{print $1}' ../sif.bsc)
 do
   echo -n "$problem: Decoding... "
   make -B -s PROBNAME=$problem

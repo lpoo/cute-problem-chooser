@@ -33,13 +33,13 @@ So far:
   file does not exits.
 * __getcodeinfo/getcodeinfo.sh__: Generates the file sif.dcd using the CUTEst
   interface in __getcodeinfo/__.
-* __sif.dcd__: File with the same problems from `sif.cls`, and information
+* __sif.dcd__: File with the same problems from `sif.bsc`, and information
   generated from the CUTEst interface. All information is as declared in the
   .SIF files, therefore hhe number of variables and constraints are identified
   as a number, i.e., not variable. 
 * __getsiflist.rb__: Retrieves from site [1] the list of problems with
-  information and generates the file sif.cls
-* __sif.cls__: File with all problems in the site, the number of variables,
+  information and generates the file sif.bsc
+* __sif.bsc__: File with all problems in the site, the number of variables,
   constraints, type of function, type of constraints, and some other
   informations. Check [2] for complete relation. This file is formatted for
   easier reading/parsing. No information from this file is being used now
@@ -67,7 +67,7 @@ If you want to override any option with the command line you can use
     
 Where `<option>` must be a valid option. Run with `--usage` for list.
 
-Generate (or update) `sif.cls` with
+Generate (or update) `sif.bsc` with
 
     $ ./gensiflist.rb
 

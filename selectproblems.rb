@@ -92,7 +92,7 @@ parse_options_from_argv(options, ARGV)
   #puts "#{key} => #{value}"
 #}
 
-class_file = File.open("sif.cls","r")
+class_file = File.open("sif.bsc","r")
 decoder_file = File.open("sif.dcd","r")
 list_file = File.open("problem.list","w")
 
