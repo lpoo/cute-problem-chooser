@@ -1,7 +1,11 @@
 #!/usr/bin/ruby -w
 
-def usage ()
-  puts "Hang on for usage"
+def usage (options)
+  puts "Usage: ./selectproblems.rb --<option> <value>"
+  puts "  Where <option> is one of the following:"
+  options.each { |key,value|
+    puts "   - #{key}"
+  }
 end
 
 def all_in_options (option, array, options)
@@ -41,9 +45,14 @@ end
 def parse_options_from_argv (options, argv)
   argv.each_slice(2) do |option, value|
     option = option[/[^-].*/]
-    if options[option]
-      options[option] = value;
+    if 'h,help,usage'.include?(option)
+      usage(options)
+      exit
     end
+    unless options[option]
+      raise "Option `#{option}` does not exist"
+    end
+    options[option] = value;
   end
 end
 
