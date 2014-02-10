@@ -58,7 +58,7 @@ require 'nokogiri'
 doc = Nokogiri::HTML(open('http://www.cuter.rl.ac.uk/Problems/mastsif.shtml'))
 td = doc.xpath("//td")
 
-f = File.open("sif.class","w")
+f = File.open("sif.cls","w")
 
 begin
   td.each_slice(3) { |a| 

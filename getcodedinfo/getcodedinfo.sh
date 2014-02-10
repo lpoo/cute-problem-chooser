@@ -1,8 +1,8 @@
 #!/bin/bash
 
-outfile=../sif.decoder
-rm -f ../sif.decoder
-for problem in $(awk '{print $1}' ../sif.url)
+outfile=../sif.dcd
+rm -f $outfile
+for problem in $(awk '{print $1}' ../sif.cls)
 do
   echo -n "$problem: Decoding... "
   make -B -s PROBNAME=$problem

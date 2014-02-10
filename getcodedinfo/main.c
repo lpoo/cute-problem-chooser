@@ -111,7 +111,7 @@ int MAINENTRY () {
     CUTEST_unames(&status, &nvar, pname, vnames);
   }
 
-  printf("%9s ", pname);
+  printf("%9s %-9d %-9d ", pname, nvar, ncon);
   classify_constr(ncon, equatn);
   classify_linear(ncon, linear);
   classify_bounds(nvar, bl, bu);

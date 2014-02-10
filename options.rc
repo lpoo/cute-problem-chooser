@@ -1,0 +1,8 @@
+min_nvar 1
+max_nvar 1000000000
+min_ncon 0
+max_ncon 1000000000
+linearity lincon,nlncon
+constr_type unc,equ,inq,gen
+bounds boxed,lower,upper,nobnd
+fixed_var fixed,nofix
