@@ -47,7 +47,7 @@ void classify_bounds (integer nvar, doublereal *bl, doublereal *bu) {
   integer i;
 
   for (i = 0; i < nvar; i++) {
-    if (bl[i] - bu[i] < EPS)
+    if (bu[i] - bl[i] < EPS)
       has_fixed = true;
     if (bl[i] > -CUTE_INF)
       has_lower = true;
