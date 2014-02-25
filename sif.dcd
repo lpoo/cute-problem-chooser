@@ -1,1148 +1,1148 @@
-3PK        30        0         unc nlncon lower nofix 
-10FOLDTR   1000      1000      equ lincon nobnd nofix 
-A0ENDNDL   45006     15002     equ lincon boxed fixed 
-A0ENINDL   45006     15002     equ lincon boxed fixed 
-A0ENSNDL   45006     15002     equ lincon boxed fixed 
-A0ESDNDL   45006     15002     equ lincon boxed fixed 
-A0ESINDL   45006     15002     equ lincon boxed fixed 
-A0ESSNDL   45006     15002     equ lincon boxed fixed 
-A0NNDNDL   60012     20004     equ lincon boxed fixed 
-A0NNDNIL   60012     20004     equ lincon boxed fixed 
-A0NNDNSL   60012     20004     equ lincon boxed fixed 
-A0NNSNSL   60012     20004     equ lincon boxed fixed 
-A0NSDSDL   60012     20004     equ lincon boxed fixed 
-A0NSDSDS   6012      2004      equ lincon boxed fixed 
-A0NSDSIL   60012     20004     equ lincon boxed fixed 
-A0NSDSSL   60012     20004     equ lincon boxed fixed 
-A0NSSSSL   60012     20004     equ lincon boxed fixed 
-A2ENDNDL   45006     15002     equ lincon boxed fixed 
-A2ENINDL   45006     15002     equ lincon boxed fixed 
-A2ENSNDL   45006     15002     equ lincon boxed fixed 
-A2ESDNDL   45006     15002     equ lincon boxed fixed 
-A2ESINDL   45006     15002     equ lincon boxed fixed 
-A2ESSNDL   45006     15002     equ lincon boxed fixed 
-A2NNDNDL   60012     20004     equ lincon boxed fixed 
-A2NNDNIL   60012     20004     equ lincon boxed fixed 
-A2NNDNSL   60012     20004     equ lincon boxed fixed 
-A2NNSNSL   60012     20004     equ lincon boxed fixed 
-A2NSDSDL   60012     20004     equ lincon boxed fixed 
-A2NSDSIL   60012     20004     equ lincon boxed fixed 
-A2NSDSSL   60012     20004     equ lincon boxed fixed 
-A2NSSSSL   60012     20004     equ lincon boxed fixed 
-A5ENDNDL   45006     15002     equ lincon boxed fixed 
-A5ENINDL   45006     15002     equ lincon boxed fixed 
-A5ENSNDL   45006     15002     equ lincon boxed fixed 
-A5ESDNDL   45006     15002     equ lincon boxed fixed 
-A5ESINDL   45006     15002     equ lincon boxed fixed 
-A5ESSNDL   45006     15002     equ lincon boxed fixed 
-A5NNDNDL   60012     20004     equ lincon boxed fixed 
-A5NNDNIL   60012     20004     equ lincon boxed fixed 
-A5NNDNSL   60012     20004     equ lincon boxed fixed 
-A5NNSNSL   60012     20004     equ lincon boxed fixed 
-A5NSDSDL   60012     20004     equ lincon boxed fixed 
-A5NSDSDM   6012      2004      equ lincon boxed fixed 
-A5NSDSIL   60012     20004     equ lincon boxed fixed 
-A5NSDSSL   60012     20004     equ lincon boxed fixed 
-A5NSSNSM   6012      2004      equ lincon boxed fixed 
-A5NSSSSL   60012     20004     equ lincon boxed fixed 
-ACOPP14    38        68        gen nlncon boxed nofix 
-ACOPP30    72        142       gen nlncon boxed nofix 
-ACOPP57    128       274       gen nlncon boxed nofix 
-ACOPP118   344       608       gen nlncon boxed nofix 
-ACOPP300   738       1422      gen nlncon boxed nofix 
-ACOPR14    38        82        gen nlncon boxed nofix 
-ACOPR30    72        172       gen nlncon boxed nofix 
-ACOPR57    128       331       gen nlncon boxed nofix 
-ACOPR118   344       726       gen nlncon boxed nofix 
-ACOPR300   738       1722      gen nlncon boxed nofix 
-AGG        163       488       gen lincon lower nofix 
-AIRCRFTA   8         5         equ nlncon boxed fixed 
-AIRCRFTB   8         0         unc nlncon boxed fixed 
-AIRPORT    84        42        inq nlncon boxed nofix 
-AKIVA      2         0         unc nlncon nobnd nofix 
-ALJAZZAF   1000      1         equ nlncon lower nofix 
-ALLINIT    4         0         unc nlncon boxed fixed 
-ALLINITA   4         4         gen lincon boxed fixed 
-ALLINITC   4         1         equ nlncon boxed fixed 
-ALLINITU   4         0         unc nlncon nobnd nofix 
-ALLINQP    50000     25000     gen lincon boxed fixed 
-ALSOTAME   2         1         equ nlncon boxed nofix 
-ANTWERP    27        10        gen lincon boxed nofix 
-ARGLALE    200       400       equ lincon nobnd nofix 
-ARGAUSS    3         15        equ nlncon nobnd nofix 
-ARGLBLE    200       400       equ lincon nobnd nofix 
-ARGLCLE    200       399       equ lincon nobnd nofix 
-ARGLINA    200       0         unc nlncon nobnd nofix 
-ARGLINB    200       0         unc nlncon nobnd nofix 
-ARGLINC    200       0         unc nlncon nobnd nofix 
-ARGTRIG    200       200       equ nlncon nobnd nofix 
-ARTIF      5002      5000      equ nlncon boxed fixed 
-ARWHEAD    5000      0         unc nlncon nobnd nofix 
-ARWHDNE    500       998       equ lincon nobnd nofix 
-AUG2D      20200     10000     equ lincon nobnd nofix 
-AUG2DC     20200     10000     equ lincon nobnd nofix 
-AUG2DCQP   20200     10000     equ lincon lower nofix 
-AUG2DQP    20200     10000     equ lincon lower nofix 
-AUG3D      27543     8000      equ lincon nobnd nofix 
-AUG3DC     27543     8000      equ lincon nobnd nofix 
-AUG3DCQP   27543     8000      equ lincon lower nofix 
-AUG3DQP    27543     8000      equ lincon lower nofix 
-AVGASA     8         10        inq lincon boxed nofix 
-AVGASB     8         10        inq lincon boxed nofix 
-AVION2     49        15        equ lincon boxed nofix 
-A4X12      130       385       gen lincon boxed fixed 
-BARD       3         0         unc nlncon nobnd nofix 
-BATCH      48        73        gen lincon boxed nofix 
-BDEXP      5000      0         unc nlncon lower nofix 
-BDRY2      251001    250498    equ lincon boxed fixed 
-BDQRTIC    5000      0         unc nlncon nobnd nofix 
-BDVALUE    5002      5000      equ nlncon boxed fixed 
-BDVALUES   10002     10000     equ nlncon boxed fixed 
-BEALE      2         0         unc nlncon nobnd nofix 
-BIGBANK    2230      1112      equ lincon boxed fixed 
-BIGGS3     6         0         unc nlncon boxed fixed 
-BIGGS5     6         0         unc nlncon boxed fixed 
-BIGGS6     6         0         unc nlncon nobnd nofix 
-BIGGSB1    5000      0         unc nlncon boxed nofix 
-BIGGSC4    4         7         inq lincon boxed nofix 
-BLEACHNG   17        0         unc nlncon boxed fixed 
-BLOCKQP1   10010     5001      gen lincon boxed nofix 
-BLOCKQP2   10010     5001      gen lincon boxed nofix 
-BLOCKQP3   10010     5001      gen lincon boxed nofix 
-BLOCKQP4   10010     5001      gen lincon boxed nofix 
-BLOCKQP5   10010     5001      gen lincon boxed nofix 
-BLOWEYA    4002      2002      equ lincon boxed nofix 
-BLOWEYB    4002      2002      equ lincon boxed nofix 
-BLOWEYC    4002      2002      equ lincon boxed nofix 
-BOOTH      2         2         equ lincon nobnd nofix 
-BOX        10000     0         unc nlncon nobnd nofix 
-BOX2       3         0         unc nlncon boxed fixed 
-BOX3       3         0         unc nlncon nobnd nofix 
-BOXPOWER   20000     0         unc nlncon nobnd nofix 
-BQP1VAR    1         0         unc nlncon boxed nofix 
-BQPGABIM   50        0         unc nlncon boxed fixed 
-BQPGASIM   50        0         unc nlncon boxed nofix 
-BQPGAUSS   2003      0         unc nlncon boxed nofix 
-BRAINPC0   6907      6900      equ nlncon boxed fixed 
-BRAINPC1   6907      6900      equ nlncon boxed fixed 
-BRAINPC2   13807     13800     equ nlncon boxed fixed 
-BRAINPC3   6907      6900      equ nlncon boxed fixed 
-BRAINPC4   6907      6900      equ nlncon boxed fixed 
-BRAINPC5   6907      6900      equ nlncon boxed fixed 
-BRAINPC6   6907      6900      equ nlncon boxed fixed 
-BRAINPC7   6907      6900      equ nlncon boxed fixed 
-BRAINPC8   6907      6900      equ nlncon boxed fixed 
-BRAINPC9   6907      6900      equ nlncon boxed fixed 
-BRATU1D    5003      0         unc nlncon boxed fixed 
-BRATU2D    5184      4900      equ nlncon boxed fixed 
-BRATU2DT   5184      4900      equ nlncon boxed fixed 
-BRATU3D    4913      3375      equ nlncon boxed fixed 
-BRIDGEND   2734      2727      equ lincon boxed nofix 
-BRITGAS    450       360       equ nlncon boxed nofix 
-BRKMCC     2         0         unc nlncon nobnd nofix 
-BROWNAL    200       0         unc nlncon nobnd nofix 
-BROWNALE   200       200       equ lincon nobnd nofix 
-BROWNBS    2         0         unc nlncon nobnd nofix 
-BROWNDEN   4         0         unc nlncon nobnd nofix 
-BROYDN3D   5000      5000      equ nlncon nobnd nofix 
-BROYDN7D   5000      0         unc nlncon nobnd nofix 
-BROYDNBD   5000      5000      equ nlncon nobnd nofix 
-BRYBND     5000      0         unc nlncon nobnd nofix 
-BTS4       36570     36310     equ lincon boxed nofix 
-BT1        2         1         equ nlncon nobnd nofix 
-BT2        3         1         equ nlncon nobnd nofix 
-BT3        5         3         equ lincon nobnd nofix 
-BT4        3         2         equ lincon nobnd nofix 
-BT5        3         2         equ lincon nobnd nofix 
-BT6        5         2         equ nlncon nobnd nofix 
-BT7        5         3         equ nlncon nobnd nofix 
-BT8        5         2         equ nlncon nobnd nofix 
-BT9        4         2         equ nlncon nobnd nofix 
-BT10       2         2         equ nlncon nobnd nofix 
-BT11       5         3         equ lincon nobnd nofix 
-BT12       5         3         equ nlncon nobnd nofix 
-BT13       5         1         equ nlncon lower nofix 
-BURKEHAN   1         1         inq nlncon upper nofix 
-BYRDSPHR   3         2         equ nlncon nobnd nofix 
-CAMEL6     2         0         unc nlncon boxed nofix 
-CAMSHAPE   800       1603      inq lincon boxed nofix 
-CANTILVR   5         1         inq nlncon lower nofix 
-CAR2       5999      4996      gen nlncon boxed fixed 
-CATENA     3003      1000      equ nlncon boxed fixed 
-CATENARY   3003      1000      equ nlncon boxed fixed 
-CATMIX     2403      1600      equ nlncon boxed fixed 
-CBS        11163     244       equ lincon boxed nofix 
-CB2        3         3         inq nlncon nobnd nofix 
-CB3        3         3         inq nlncon nobnd nofix 
-CBRATU2D   3200      2888      equ nlncon boxed fixed 
-CBRATU3D   3456      2000      equ nlncon boxed fixed 
-CHACONN1   3         3         inq nlncon nobnd nofix 
-CHACONN2   3         3         inq nlncon nobnd nofix 
-CHAIN      802       401       equ lincon boxed fixed 
-CHAINWOO   4000      0         unc nlncon nobnd nofix 
-CHANDHEQ   100       100       equ nlncon lower nofix 
-CHANDHEU   500       500       equ nlncon nobnd nofix 
-CHANNEL    9600      9598      equ lincon boxed fixed 
-CHARDIS0   2000      0         unc nlncon boxed nofix 
-CHARDIS1   2000      999       inq nlncon boxed fixed 
-CHEBYQAD   100       0         unc nlncon boxed nofix 
-CHEMRCTA   5000      5000      equ lincon lower nofix 
-CHEMRCTB   5000      5000      equ lincon lower nofix 
-CHENHARK   5000      0         unc nlncon lower nofix 
-CHNROSNB   50        0         unc nlncon nobnd nofix 
-CHNRSBNE   50        98        equ lincon nobnd nofix 
-CHNRSNBM   50        0         unc nlncon nobnd nofix 
-CLIFF      2         0         unc nlncon nobnd nofix 
-CLNLBEAM   6003      4000      equ lincon boxed fixed 
-CLPLATEA   5041      0         unc nlncon boxed fixed 
-CLPLATEB   5041      0         unc nlncon boxed fixed 
-CLPLATEC   5041      0         unc nlncon boxed fixed 
-CLUSTER    2         2         equ nlncon nobnd nofix 
-CONCON     15        11        equ lincon upper nofix 
-CONGIGMZ   3         5         inq lincon nobnd nofix 
-CONT5-QP   40601     40200     equ lincon boxed fixed 
-CONT6-QQ   20002     10197     equ lincon boxed nofix 
-COOLHANS   9         9         equ nlncon nobnd nofix 
-CORE1      65        59        gen lincon boxed nofix 
-CORE2      157       134       gen lincon boxed nofix 
-CORKSCRW   4506      3500      gen lincon boxed fixed 
-COSHFUN    6001      2000      inq nlncon nobnd nofix 
-COSINE     10000     0         unc nlncon nobnd nofix 
-CRAGGLVY   5000      0         unc nlncon nobnd nofix 
-C-RELOAD   342       284       gen lincon boxed nofix 
-CRESC100   6         200       inq nlncon boxed nofix 
-CRESC132   6         2654      inq nlncon boxed nofix 
-CRESC4     6         8         inq nlncon boxed nofix 
-CRESC50    6         100       inq nlncon boxed nofix 
-CSFI1      5         4         gen nlncon boxed nofix 
-CSFI2      5         4         gen nlncon lower nofix 
-CUBE       2         0         unc nlncon nobnd nofix 
-CUBENE     2         2         equ lincon nobnd nofix 
-CURLY10    10000     0         unc nlncon nobnd nofix 
-CURLY20    10000     0         unc nlncon nobnd nofix 
-CURLY30    10000     0         unc nlncon nobnd nofix 
-CVXBQP1    10000     0         unc nlncon boxed nofix 
-CVXQP1     10000     5000      equ lincon boxed nofix 
-CVXQP2     10000     2500      equ lincon boxed nofix 
-CVXQP3     10000     7500      equ lincon boxed nofix 
-CYCLIC3    100002    100002    equ lincon nobnd nofix 
-DALE       16514     405       equ lincon boxed nofix 
-DALLASL    906       667       equ lincon boxed nofix 
-DALLASM    196       151       equ lincon boxed nofix 
-DALLASS    46        31        equ lincon boxed nofix 
-DECONVB    63        0         unc nlncon boxed fixed 
-DECONVC    63        1         equ nlncon boxed fixed 
-DECONVU    63        0         unc nlncon boxed fixed 
-DECONVNE   63        40        equ nlncon boxed fixed 
-DEGENLPA   20        15        equ lincon boxed nofix 
-DEGENLPB   20        15        equ lincon boxed nofix 
-DEGDIAG    100001    0         unc nlncon lower nofix 
-DEGENQP    50        125025    gen lincon boxed nofix 
-DEGENQPC   50        19625     gen lincon boxed nofix 
-DEGTRID    100001    0         unc nlncon lower nofix 
-DEGTRID2   100001    0         unc nlncon lower nofix 
-DEGTRIDL   100001    1         equ lincon lower nofix 
-DEMBO7     16        20        inq lincon boxed nofix 
-DEMYMALO   3         3         inq lincon nobnd nofix 
-DENSCHNA   2         0         unc nlncon nobnd nofix 
-DENSCHNB   2         0         unc nlncon nobnd nofix 
-DENSCHNC   2         0         unc nlncon nobnd nofix 
-DENSCHND   3         0         unc nlncon nobnd nofix 
-DENSCHNE   3         0         unc nlncon nobnd nofix 
-DENSCHNF   2         0         unc nlncon nobnd nofix 
-DIPIGRI    7         4         inq nlncon nobnd nofix 
-DISC2      29        23        gen nlncon boxed nofix 
-DISCS      36        66        gen nlncon boxed fixed 
-DITTERT    1133      1034      equ lincon boxed nofix 
-DIXCHLNG   10        5         equ nlncon nobnd nofix 
-DIXCHLNV   1000      500       equ nlncon lower nofix 
-DIXMAANA   3000      0         unc nlncon nobnd nofix 
-DIXMAANB   3000      0         unc nlncon nobnd nofix 
-DIXMAANC   3000      0         unc nlncon nobnd nofix 
-DIXMAAND   3000      0         unc nlncon nobnd nofix 
-DIXMAANE   3000      0         unc nlncon nobnd nofix 
-DIXMAANF   3000      0         unc nlncon nobnd nofix 
-DIXMAANG   3000      0         unc nlncon nobnd nofix 
-DIXMAANH   3000      0         unc nlncon nobnd nofix 
-DIXMAANI   3000      0         unc nlncon nobnd nofix 
-DIXMAANJ   3000      0         unc nlncon nobnd nofix 
-DIXMAANK   3000      0         unc nlncon nobnd nofix 
-DIXMAANL   3000      0         unc nlncon nobnd nofix 
-DIXMAANM   15        0         unc nlncon nobnd nofix 
-DIXMAANN   15        0         unc nlncon nobnd nofix 
-DIXMAANO   15        0         unc nlncon nobnd nofix 
-DIXMAANP   15        0         unc nlncon nobnd nofix 
-DIXON3DQ   10000     0         unc nlncon nobnd nofix 
-DJTL       2         0         unc nlncon nobnd nofix 
-DNIEPER    61        24        equ nlncon boxed fixed 
-DQDRTIC    5000      0         unc nlncon nobnd nofix 
-DQRTIC     5000      0         unc nlncon nobnd nofix 
-DRCAV1LQ   4489      0         unc nlncon boxed fixed 
-DRCAV2LQ   4489      0         unc nlncon boxed fixed 
-DRCAV3LQ   4489      0         unc nlncon boxed fixed 
-DRCAVTY1   4489      3969      equ nlncon boxed fixed 
-DRCAVTY2   4489      3969      equ nlncon boxed fixed 
-DRCAVTY3   4489      3969      equ nlncon boxed fixed 
-DRUGDIS    6004      4000      equ nlncon boxed fixed 
-DRUGDISE   603       500       equ nlncon boxed fixed 
-DTOC1L     5998      3996      equ lincon boxed fixed 
-DTOC1NA    5998      3996      equ nlncon boxed fixed 
-DTOC1NB    5998      3996      equ nlncon boxed fixed 
-DTOC1NC    5998      3996      equ nlncon boxed fixed 
-DTOC1ND    5998      3996      equ nlncon boxed fixed 
-DTOC2      5998      3996      equ nlncon boxed fixed 
-DTOC3      4499      2998      equ lincon boxed fixed 
-DTOC4      4499      2998      equ lincon boxed fixed 
-DTOC5      9999      4999      equ nlncon boxed fixed 
-DTOC6      10001     5000      equ nlncon boxed fixed 
-DUAL1      85        1         equ lincon boxed nofix 
-DUAL2      96        1         equ lincon boxed nofix 
-DUAL3      111       1         equ lincon boxed nofix 
-DUAL4      75        1         equ lincon boxed nofix 
-DUALC1     9         215       gen lincon boxed nofix 
-DUALC2     7         229       gen lincon boxed nofix 
-DUALC5     8         278       gen lincon boxed nofix 
-DUALC8     8         503       gen lincon boxed nofix 
-EDENSCH    2000      0         unc nlncon nobnd nofix 
-EG1        3         0         unc nlncon boxed nofix 
-EG2        1000      0         unc nlncon nobnd nofix 
-EG3        10001     20000     gen nlncon boxed nofix 
-EIGENA     2550      2550      equ nlncon lower nofix 
-EIGENA2    2550      1275      equ nlncon nobnd nofix 
-EIGENACO   2550      1275      equ nlncon nobnd nofix 
-EIGENALS   2550      0         unc nlncon nobnd nofix 
-EIGENAU    2550      2550      equ nlncon nobnd nofix 
-EIGENB     2550      2550      equ nlncon nobnd nofix 
-EIGENB2    2550      1275      equ nlncon nobnd nofix 
-EIGENBCO   2550      1275      equ nlncon nobnd nofix 
-EIGENBLS   2550      0         unc nlncon nobnd nofix 
-EIGENC     2652      2652      equ nlncon nobnd nofix 
-EIGENC2    2652      1326      equ nlncon nobnd nofix 
-EIGENCCO   2652      1326      equ nlncon nobnd nofix 
-EIGENCLS   2652      0         unc nlncon nobnd nofix 
-EIGMAXA    101       101       equ nlncon boxed nofix 
-EIGMAXB    101       101       equ nlncon boxed nofix 
-EIGMAXC    202       202       equ nlncon boxed nofix 
-EIGMINA    101       101       equ nlncon boxed nofix 
-EIGMINB    101       101       equ nlncon boxed nofix 
-EIGMINC    202       202       equ nlncon boxed nofix 
-ELATTAR    7         102       inq nlncon nobnd nofix 
-ELEC       600       200       equ nlncon nobnd nofix 
-ENGVAL1    5000      0         unc nlncon nobnd nofix 
-ENGVAL2    3         0         unc nlncon nobnd nofix 
-EQC        9         3         inq lincon boxed fixed 
-ERRINBAR   18        9         gen lincon lower nofix 
-ERRINROS   50        0         unc nlncon nobnd nofix 
-ERRINRSM   50        0         unc nlncon nobnd nofix 
-EXPFIT     2         0         unc nlncon nobnd nofix 
-EXPFITA    5         22        inq lincon nobnd nofix 
-EXPFITB    5         102       inq lincon nobnd nofix 
-EXPFITC    5         502       inq lincon nobnd nofix 
-EXPLIN     1200      0         unc nlncon boxed nofix 
-EXPLIN2    1200      0         unc nlncon boxed nofix 
-EXPQUAD    1200      0         unc nlncon boxed nofix 
-EXTRASIM   2         1         equ lincon lower nofix 
-EXTROSNB   1000      0         unc nlncon nobnd nofix 
-FCCU       19        8         equ lincon lower nofix 
-FEEDLOC    90        259       gen lincon boxed fixed 
-FERRISDC   2200      210       equ lincon boxed fixed 
-FIVE20B    34552     52983     equ lincon boxed nofix 
-FIVE20C    34501     58825     equ lincon boxed nofix 
-FLETBV3M   5000      0         unc nlncon nobnd nofix 
-FLETCBV2   5000      0         unc nlncon nobnd nofix 
-FLETCBV3   5000      0         unc nlncon nobnd nofix 
-FLETCHBV   5000      0         unc nlncon nobnd nofix 
-FLETCHCR   1000      0         unc nlncon nobnd nofix 
-FLETCHER   4         4         gen lincon lower nofix 
-FLOSP2HH   2883      2763      equ lincon boxed fixed 
-FLOSP2HL   2883      2763      equ lincon boxed fixed 
-FLOSP2HM   2883      2763      equ lincon boxed fixed 
-FLOSP2TH   2883      2763      equ lincon boxed fixed 
-FLOSP2TL   2883      2763      equ lincon boxed fixed 
-FLOSP2TM   2883      2763      equ lincon boxed fixed 
-FLT        2         2         equ nlncon nobnd nofix 
-FMINSRF2   5625      0         unc nlncon nobnd nofix 
-FMINSURF   5625      0         unc nlncon nobnd nofix 
-FREUROTH   5000      0         unc nlncon nobnd nofix 
-GASOIL     10403     10398     equ lincon boxed fixed 
-GAUSSELM   22140     61542     gen lincon boxed fixed 
-GENHS28    10        8         equ lincon nobnd nofix 
-GENHUMPS   5000      0         unc nlncon nobnd nofix 
-GENROSE    500       0         unc nlncon nobnd nofix 
-GIGOMEZ1   3         3         inq lincon nobnd nofix 
-GIGOMEZ2   3         3         inq nlncon nobnd nofix 
-GIGOMEZ3   3         3         inq nlncon nobnd nofix 
-GILBERT    5000      1         equ nlncon lower nofix 
-GLIDER     5214      4808      equ lincon boxed fixed 
-GMNCASE1   175       300       inq lincon nobnd nofix 
-GMNCASE2   175       1050      inq lincon nobnd nofix 
-GMNCASE3   175       1050      inq lincon nobnd nofix 
-GMNCASE4   175       350       inq lincon nobnd nofix 
-GOFFIN     51        50        inq lincon nobnd nofix 
-GOTTFR     2         2         equ nlncon nobnd nofix 
-GOULDQP1   32        17        equ lincon boxed nofix 
-GOULDQP2   19999     9999      equ lincon boxed nofix 
-GOULDQP3   19999     9999      equ lincon boxed nofix 
-GPP        1000      1998      inq lincon nobnd nofix 
-GRIDGENA   6218      0         unc nlncon boxed fixed 
-GRIDNETA   7564      3844      equ lincon boxed fixed 
-GRIDNETB   7564      3844      equ lincon nobnd nofix 
-GRIDNETC   7564      3844      equ lincon lower nofix 
-GRIDNETD   7564      3844      equ lincon boxed fixed 
-GRIDNETE   7564      3844      equ lincon nobnd nofix 
-GRIDNETF   7564      3844      equ lincon lower nofix 
-GRIDNETG   7564      3844      equ lincon boxed fixed 
-GRIDNETH   7564      3844      equ lincon nobnd nofix 
-GRIDNETI   7564      3844      equ lincon lower nofix 
-GROUPING   100       125       equ lincon boxed nofix 
-GROWTH     3         12        equ nlncon nobnd nofix 
-GROWTHLS   3         0         unc nlncon nobnd nofix 
-GULF       3         0         unc nlncon nobnd nofix 
-HADAMALS   400       0         unc nlncon boxed fixed 
-HADAMARD   401       1010      gen lincon lower nofix 
-HAGER1     5001      2500      equ lincon boxed fixed 
-HAGER2     5001      2500      equ lincon boxed fixed 
-HAGER3     5001      2500      equ lincon boxed fixed 
-HAGER4     5001      2500      equ lincon boxed fixed 
-HAIFAL     343       8958      inq lincon nobnd nofix 
-HAIFAM     99        150       inq nlncon nobnd nofix 
-HAIFAS     13        9         inq nlncon nobnd nofix 
-HAIRY      2         0         unc nlncon nobnd nofix 
-HALDMADS   6         42        inq nlncon nobnd nofix 
-HANGING    3600      2330      inq nlncon boxed fixed 
-HARKERP2   1000      0         unc nlncon lower nofix 
-HART6      6         0         unc nlncon boxed nofix 
-HATFLDA    4         0         unc nlncon lower nofix 
-HATFLDB    4         0         unc nlncon boxed nofix 
-HATFLDC    25        0         unc nlncon boxed nofix 
-HATFLDD    3         0         unc nlncon nobnd nofix 
-HATFLDE    3         0         unc nlncon nobnd nofix 
-HATFLDF    3         3         equ nlncon nobnd nofix 
-HATFLDFL   3         0         unc nlncon nobnd nofix 
-HATFLDG    25        25        equ nlncon nobnd nofix 
-HATFLDH    4         7         inq lincon boxed nofix 
-HEART6     6         6         equ nlncon nobnd nofix 
-HEART6LS   6         0         unc nlncon nobnd nofix 
-HEART8     8         8         equ lincon nobnd nofix 
-HEART8LS   8         0         unc nlncon nobnd nofix 
-HELIX      3         0         unc nlncon nobnd nofix 
-HELSBY     1408      1399      equ lincon boxed nofix 
-HET-Z      2         1002      inq nlncon nobnd nofix 
-HIELOW     3         0         unc nlncon nobnd nofix 
-HIE1327D   1183      1443      equ lincon boxed nofix 
-HIE1372D   637       525       equ lincon boxed nofix 
-HIER133A   2197      3549      equ lincon boxed nofix 
-HIER133B   2197      3549      equ lincon boxed nofix 
-HIER133C   2197      3549      equ lincon boxed nofix 
-HIER133D   2197      3549      equ lincon boxed nofix 
-HIER133E   2197      3549      equ lincon boxed nofix 
-HIER13     2020      3313      equ lincon boxed nofix 
-HIER163A   4096      5376      equ lincon boxed nofix 
-HIER163B   4096      5376      equ lincon boxed nofix 
-HIER163C   4096      5376      equ lincon boxed nofix 
-HIER163D   4096      5376      equ lincon boxed nofix 
-HIER163E   4096      5376      equ lincon boxed nofix 
-HIER16     3564      5484      equ lincon boxed nofix 
-HILBERTA   2         0         unc nlncon nobnd nofix 
-HILBERTB   10        0         unc nlncon nobnd nofix 
-HIMMELBA   2         2         equ lincon nobnd nofix 
-HIMMELBB   2         0         unc nlncon nobnd nofix 
-HIMMELBC   2         2         equ nlncon nobnd nofix 
-HIMMELBD   2         2         equ nlncon nobnd nofix 
-HIMMELBE   3         3         equ lincon nobnd nofix 
-HIMMELBF   4         0         unc nlncon nobnd nofix 
-HIMMELBG   2         0         unc nlncon nobnd nofix 
-HIMMELBH   2         0         unc nlncon nobnd nofix 
-HIMMELBI   100       12        inq lincon boxed nofix 
-HIMMELBJ   45        14        equ lincon boxed fixed 
-HIMMELBK   24        14        equ lincon lower nofix 
-HIMMELP1   2         0         unc nlncon boxed nofix 
-HIMMELP2   2         1         inq nlncon boxed nofix 
-HIMMELP3   2         2         inq nlncon boxed nofix 
-HIMMELP4   2         3         inq nlncon boxed nofix 
-HIMMELP5   2         3         inq nlncon boxed nofix 
-HIMMELP6   2         5         inq lincon boxed nofix 
-HOLMES     180       0         unc nlncon lower nofix 
-HONG       4         1         equ lincon boxed nofix 
-HS1        2         0         unc nlncon lower nofix 
-HS10       2         1         inq nlncon nobnd nofix 
-HS100      7         4         inq nlncon nobnd nofix 
-HS100LNP   7         2         equ nlncon nobnd nofix 
-HS100MOD   7         4         inq nlncon nobnd nofix 
-HS101      7         5         inq nlncon boxed nofix 
-HS102      7         5         inq nlncon boxed nofix 
-HS103      7         5         inq nlncon boxed nofix 
-HS104      8         5         inq nlncon boxed nofix 
-HS105      8         1         inq lincon boxed nofix 
-HS106      8         6         inq lincon boxed nofix 
-HS107      9         6         equ nlncon boxed nofix 
-HS108      9         13        inq nlncon lower nofix 
-HS109      9         10        gen lincon boxed nofix 
-HS11       2         1         inq nlncon nobnd nofix 
-HS110      10        0         unc nlncon boxed nofix 
-HS111      10        3         equ nlncon boxed nofix 
-HS111LNP   10        3         equ nlncon nobnd nofix 
-HS112      10        3         equ lincon lower nofix 
-HS113      10        8         inq lincon nobnd nofix 
-HS114      10        11        gen lincon boxed nofix 
-HS116      13        14        inq lincon boxed nofix 
-HS117      15        5         inq nlncon lower nofix 
-HS118      15        17        inq lincon boxed nofix 
-HS119      16        8         equ lincon boxed nofix 
-HS12       2         1         inq nlncon nobnd nofix 
-HS13       2         1         inq nlncon lower nofix 
-HS14       2         2         gen lincon nobnd nofix 
-HS15       2         2         inq nlncon upper nofix 
-HS16       2         2         inq nlncon boxed nofix 
-HS17       2         2         inq nlncon boxed nofix 
-HS18       2         2         inq nlncon boxed nofix 
-HS19       2         2         inq nlncon boxed nofix 
-HS2        2         0         unc nlncon lower nofix 
-HS20       2         3         inq nlncon boxed nofix 
-HS21       2         1         inq lincon boxed nofix 
-HS21MOD    7         1         inq lincon boxed nofix 
-HS22       2         2         inq lincon nobnd nofix 
-HS23       2         5         inq lincon boxed nofix 
-HS24       2         3         inq lincon lower nofix 
-HS25       3         0         unc nlncon boxed nofix 
-HS26       3         1         equ nlncon nobnd nofix 
-HS268      5         5         inq lincon nobnd nofix 
-HS27       3         1         equ nlncon nobnd nofix 
-HS28       3         1         equ lincon nobnd nofix 
-HS29       3         1         inq nlncon nobnd nofix 
-HS3        2         0         unc nlncon lower nofix 
-HS30       3         1         inq nlncon boxed nofix 
-HS31       3         1         inq nlncon boxed nofix 
-HS32       3         2         gen lincon lower nofix 
-HS33       3         2         inq nlncon boxed nofix 
-HS34       3         2         inq nlncon boxed nofix 
-HS35       3         1         inq lincon lower nofix 
-HS35I      3         1         inq lincon boxed nofix 
-HS35MOD    3         1         inq lincon boxed fixed 
-HS36       3         1         inq lincon boxed nofix 
-HS37       3         2         inq lincon boxed nofix 
-HS38       4         0         unc nlncon boxed nofix 
-HS39       4         2         equ nlncon nobnd nofix 
-HS3MOD     2         0         unc nlncon lower nofix 
-HS4        2         0         unc nlncon lower nofix 
-HS40       4         3         equ nlncon nobnd nofix 
-HS41       4         1         equ lincon boxed nofix 
-HS42       4         2         equ lincon nobnd nofix 
-HS43       4         3         inq nlncon nobnd nofix 
-HS44       4         6         inq lincon lower nofix 
-HS44NEW    4         6         inq lincon lower nofix 
-HS45       5         0         unc nlncon boxed nofix 
-HS46       5         2         equ nlncon nobnd nofix 
-HS47       5         3         equ nlncon nobnd nofix 
-HS48       5         2         equ lincon nobnd nofix 
-HS49       5         2         equ lincon nobnd nofix 
-HS5        2         0         unc nlncon boxed nofix 
-HS50       5         3         equ lincon nobnd nofix 
-HS51       5         3         equ lincon nobnd nofix 
-HS52       5         3         equ lincon nobnd nofix 
-HS53       5         3         equ lincon boxed nofix 
-HS54       6         1         equ lincon boxed nofix 
-HS55       6         6         equ lincon boxed nofix 
-HS56       7         4         equ nlncon nobnd nofix 
-HS57       2         1         inq nlncon lower nofix 
-HS59       2         3         inq nlncon boxed nofix 
-HS6        2         1         equ nlncon nobnd nofix 
-HS60       3         1         equ nlncon boxed nofix 
-HS61       3         2         equ nlncon nobnd nofix 
-HS62       3         1         equ lincon boxed nofix 
-HS63       3         2         equ lincon lower nofix 
-HS64       3         1         inq nlncon lower nofix 
-HS65       3         1         inq nlncon boxed nofix 
-HS66       3         2         inq nlncon boxed nofix 
-HS67       3         14        inq nlncon boxed nofix 
-HS68       4         2         equ nlncon boxed nofix 
-HS69       4         2         equ nlncon boxed nofix 
-HS7        2         1         equ nlncon nobnd nofix 
-HS70       4         1         inq nlncon boxed nofix 
-HS71       4         2         gen nlncon boxed nofix 
-HS72       4         2         inq nlncon boxed nofix 
-HS73       4         3         gen lincon lower nofix 
-HS74       4         5         gen lincon boxed nofix 
-HS75       4         5         gen lincon boxed nofix 
-HS76       4         3         inq lincon lower nofix 
-HS76I      4         3         inq lincon boxed nofix 
-HS77       5         2         equ nlncon nobnd nofix 
-HS78       5         3         equ nlncon nobnd nofix 
-HS79       5         3         equ nlncon nobnd nofix 
-HS8        2         2         equ nlncon nobnd nofix 
-HS80       5         3         equ nlncon boxed nofix 
-HS81       5         3         equ nlncon boxed nofix 
-HS83       5         3         inq nlncon boxed nofix 
-HS84       5         3         inq nlncon boxed nofix 
-HS85       5         21        inq lincon boxed nofix 
-HS86       5         10        inq lincon lower nofix 
-HS87       6         4         equ nlncon boxed nofix 
-HS88       2         1         inq nlncon nobnd nofix 
-HS89       3         1         inq nlncon nobnd nofix 
-HS9        2         1         equ lincon nobnd nofix 
-HS90       4         1         inq nlncon nobnd nofix 
-HS91       5         1         inq nlncon nobnd nofix 
-HS92       6         1         inq nlncon nobnd nofix 
-HS93       6         2         inq nlncon lower nofix 
-HS95       6         4         inq nlncon boxed nofix 
-HS96       6         4         inq nlncon boxed nofix 
-HS97       6         4         inq nlncon boxed nofix 
-HS98       6         4         inq nlncon boxed nofix 
-HS99       7         2         equ nlncon boxed nofix 
-HS99EXP    31        21        equ nlncon boxed fixed 
-HUBFIT     2         1         inq lincon lower nofix 
-HUESTIS    5000      2         equ lincon lower nofix 
-HUES-MOD   5000      2         equ lincon lower nofix 
-HUMPS      2         0         unc nlncon nobnd nofix 
-HVYCRASH   4004      3000      equ nlncon boxed fixed 
-HYDC20LS   99        0         unc nlncon nobnd nofix 
-HYDCAR20   99        99        equ nlncon nobnd nofix 
-HYDCAR6    29        29        equ nlncon nobnd nofix 
-HYDROELL   1009      1008      inq lincon boxed fixed 
-HYDROELM   505       504       inq lincon boxed fixed 
-HYDROELS   169       168       inq lincon boxed fixed 
-HYPCIR     2         2         equ nlncon nobnd nofix 
-INDEF      5000      0         unc nlncon nobnd nofix 
-INDEFM     100000    0         unc nlncon nobnd nofix 
-INTEGREQ   502       500       equ nlncon boxed fixed 
-JANNSON3   20000     3         gen lincon boxed nofix 
-JANNSON4   10000     2         inq nlncon boxed nofix 
-JENSMP     2         0         unc nlncon nobnd nofix 
-JIMACK     3549      0         unc nlncon nobnd nofix 
-JJTABEL3   3025      1650      equ lincon boxed nofix 
-JNLBRNG1   10000     0         unc nlncon boxed fixed 
-JNLBRNG2   10000     0         unc nlncon boxed fixed 
-JNLBRNGA   10000     0         unc nlncon boxed fixed 
-JNLBRNGB   10000     0         unc nlncon boxed fixed 
-JUNKTURN   10010     7000      equ nlncon boxed fixed 
-KISSING    127       903       gen nlncon nobnd nofix 
-KISSING2   100       625       inq nlncon boxed fixed 
-KIWCRESC   3         2         inq nlncon nobnd nofix 
-KOEBHELB   3         0         unc nlncon lower nofix 
-KOWOSB     4         0         unc nlncon nobnd nofix 
-KSIP       20        1001      inq lincon nobnd nofix 
-KSS        1000      1000      equ nlncon nobnd nofix 
-KTMODEL    726       450       equ lincon boxed fixed 
-LAKES      90        78        equ lincon lower nofix 
-LAUNCH     25        28        gen lincon boxed nofix 
-LCH        3000      1         equ nlncon nobnd nofix 
-LEAKNET    156       153       equ lincon boxed nofix 
-LEUVEN1    1530      2220      gen lincon boxed fixed 
-LEUVEN2    1530      2329      gen lincon boxed fixed 
-LEUVEN3    1200      2973      gen lincon boxed nofix 
-LEUVEN4    1200      2973      gen lincon boxed nofix 
-LEUVEN5    1200      2973      gen lincon boxed nofix 
-LEUVEN6    1200      3091      gen lincon boxed nofix 
-LEUVEN7    360       946       inq lincon boxed nofix 
-LEWISPOL   6         9         equ lincon boxed nofix 
-LIARWHD    5000      0         unc nlncon nobnd nofix 
-LIN        4         2         equ lincon boxed nofix 
-LINCONT    1257      419       equ lincon boxed fixed 
-LINSPANH   97        33        equ lincon boxed fixed 
-LINVERSE   1999      0         unc nlncon lower nofix 
-LIPPERT1   20201     50000     gen lincon lower nofix 
-LIPPERT2   20201     50000     gen lincon lower nofix 
-LISWET1    2002      2000      inq lincon nobnd nofix 
-LISWET10   2002      2000      inq lincon nobnd nofix 
-LISWET11   2002      2000      inq lincon nobnd nofix 
-LISWET12   2002      2000      inq lincon nobnd nofix 
-LISWET2    2002      2000      inq lincon nobnd nofix 
-LISWET3    2002      2000      inq lincon nobnd nofix 
-LISWET4    2002      2000      inq lincon nobnd nofix 
-LISWET5    2002      2000      inq lincon nobnd nofix 
-LISWET6    2002      2000      inq lincon nobnd nofix 
-LISWET7    2002      2000      inq lincon nobnd nofix 
-LISWET8    2002      2000      inq lincon nobnd nofix 
-LISWET9    2002      2000      inq lincon nobnd nofix 
-LMINSURF   5625      0         unc nlncon boxed fixed 
-LOADBAL    31        31        gen lincon boxed nofix 
-LOBSTERZ   16263     16243     equ lincon boxed fixed 
-LOGHAIRY   2         0         unc nlncon nobnd nofix 
-LOGROS     2         0         unc nlncon lower nofix 
-LOOTSMA    3         2         inq nlncon boxed nofix 
-LOTSCHD    12        7         equ lincon lower nofix 
-LSNNODOC   5         4         equ lincon boxed nofix 
-LSQFIT     2         1         inq lincon lower nofix 
-LUBRIF     3751      2500      equ lincon boxed fixed 
-LUBRIFC    3751      2500      equ lincon boxed fixed 
-LUKVLE1    10000     9998      equ nlncon nobnd nofix 
-LUKVLE2    10000     4999      equ nlncon nobnd nofix 
-LUKVLE3    10000     2         equ nlncon nobnd nofix 
-LUKVLE4    10000     4999      equ nlncon nobnd nofix 
-LUKVLE5    10002     9996      equ nlncon boxed fixed 
-LUKVLE6    9999      4999      equ nlncon nobnd nofix 
-LUKVLE7    10000     4         equ nlncon nobnd nofix 
-LUKVLE8    10000     9998      equ nlncon nobnd nofix 
-LUKVLE9    10000     6         equ nlncon nobnd nofix 
-LUKVLE10   10000     9998      equ nlncon nobnd nofix 
-LUKVLE11   9998      6664      equ nlncon nobnd nofix 
-LUKVLE12   9997      7497      equ nlncon nobnd nofix 
-LUKVLE13   9998      6664      equ nlncon nobnd nofix 
-LUKVLE14   9998      6664      equ nlncon nobnd nofix 
-LUKVLE15   9997      7497      equ nlncon nobnd nofix 
-LUKVLE16   9997      7497      equ nlncon nobnd nofix 
-LUKVLE17   9997      7497      equ nlncon nobnd nofix 
-LUKVLE18   9997      7497      equ nlncon nobnd nofix 
-LUKVLI1    10000     9998      inq nlncon nobnd nofix 
-LUKVLI2    10000     4999      inq nlncon nobnd nofix 
-LUKVLI3    10000     2         inq nlncon nobnd nofix 
-LUKVLI4    10000     4999      inq nlncon nobnd nofix 
-LUKVLI5    10002     9996      inq nlncon boxed fixed 
-LUKVLI6    9999      4999      inq nlncon nobnd nofix 
-LUKVLI7    10000     4         inq nlncon nobnd nofix 
-LUKVLI8    10000     9998      inq nlncon nobnd nofix 
-LUKVLI9    10000     6         inq nlncon nobnd nofix 
-LUKVLI10   10000     9998      inq nlncon nobnd nofix 
-LUKVLI11   9998      6664      inq nlncon nobnd nofix 
-LUKVLI12   9997      7497      inq nlncon nobnd nofix 
-LUKVLI13   9998      6664      inq nlncon nobnd nofix 
-LUKVLI14   9998      6664      inq nlncon nobnd nofix 
-LUKVLI15   9997      7497      inq nlncon nobnd nofix 
-LUKVLI16   9997      7497      inq nlncon nobnd nofix 
-LUKVLI17   9997      7497      inq nlncon nobnd nofix 
-LUKVLI18   9997      7497      inq nlncon nobnd nofix 
-MADSEN     3         6         inq nlncon nobnd nofix 
-MADSSCHJ   201       398       inq nlncon nobnd nofix 
-MAKELA1    3         2         inq lincon nobnd nofix 
-MAKELA2    3         3         inq nlncon nobnd nofix 
-MAKELA3    21        20        inq nlncon nobnd nofix 
-MAKELA4    21        40        inq lincon nobnd nofix 
-MANCINO    100       0         unc nlncon nobnd nofix 
-MANNE      6000      4000      inq lincon boxed fixed 
-MARATOS    2         1         equ nlncon nobnd nofix 
-MARATOSB   2         0         unc nlncon nobnd nofix 
-MARINE     11215     11192     equ lincon lower nofix 
-MATRIX2    6         2         inq nlncon boxed nofix 
-MAXLIKA    8         0         unc nlncon boxed nofix 
-MCCORMCK   5000      0         unc nlncon boxed nofix 
-MCONCON    15        11        equ lincon upper nofix 
-MDHOLE     2         0         unc nlncon lower nofix 
-MESH       41        48        gen lincon boxed fixed 
-METHANB8   31        31        equ nlncon nobnd nofix 
-METHANL8   31        31        equ nlncon nobnd nofix 
-METHANOL   12005     11997     equ lincon boxed fixed 
-MEXHAT     2         0         unc nlncon nobnd nofix 
-MEYER3     3         0         unc nlncon nobnd nofix 
-MIFFLIN1   3         2         inq lincon nobnd nofix 
-MIFFLIN2   3         2         inq nlncon nobnd nofix 
-MINC44     1113      1032      equ lincon boxed fixed 
-MINMAXBD   5         20        inq nlncon nobnd nofix 
-MINMAXRB   3         4         inq lincon nobnd nofix 
-MINPERM    1113      1033      equ lincon boxed nofix 
-MINSURF    64        0         unc nlncon boxed fixed 
-MINSURFO   5306      0         unc nlncon boxed fixed 
-MISTAKE    9         13        inq nlncon lower nofix 
-MODBEALE   20000     0         unc nlncon nobnd nofix 
-MODEL      1542      38        gen lincon boxed fixed 
-MOREBV     5000      0         unc nlncon nobnd nofix 
-MOSARQP1   2500      700       inq lincon lower nofix 
-MOSARQP2   2500      700       inq lincon lower nofix 
-MPC1       2550      3833      gen lincon boxed fixed 
-MPC2       1530      2351      gen lincon boxed fixed 
-MPC3       1530      2351      gen lincon boxed fixed 
-MPC4       1530      2351      gen lincon boxed fixed 
-MPC5       1530      2351      gen lincon boxed fixed 
-MPC6       1530      2351      gen lincon boxed fixed 
-MPC7       1530      2351      gen lincon boxed fixed 
-MPC8       1530      2351      gen lincon boxed fixed 
-MPC9       1530      2351      gen lincon boxed fixed 
-MPC10      1530      2351      gen lincon boxed fixed 
-MPC11      1530      2351      gen lincon boxed fixed 
-MPC12      1530      2351      gen lincon boxed fixed 
-MPC13      1530      2351      gen lincon boxed fixed 
-MPC14      1530      2351      gen lincon boxed fixed 
-MPC15      1530      2351      gen lincon boxed fixed 
-MPC16      1530      2351      gen lincon boxed fixed 
-MRIBASIS   36        55        gen lincon boxed fixed 
-MSQRTA     1024      1024      equ nlncon nobnd nofix 
-MSQRTALS   1024      0         unc nlncon nobnd nofix 
-MSQRTB     1024      1024      equ nlncon nobnd nofix 
-MSQRTBLS   1024      0         unc nlncon nobnd nofix 
-MSS1       90        73        equ nlncon nobnd nofix 
-MSS2       756       703       equ nlncon nobnd nofix 
-MSS3       2070      1981      equ nlncon nobnd nofix 
-MWRIGHT    5         3         equ nlncon nobnd nofix 
-NASH       72        24        equ lincon boxed fixed 
-NCB20      5010      0         unc nlncon nobnd nofix 
-NCB20B     5000      0         unc nlncon nobnd nofix 
-NCVXBQP1   10000     0         unc nlncon boxed nofix 
-NCVXBQP2   10000     0         unc nlncon boxed nofix 
-NCVXBQP3   10000     0         unc nlncon boxed nofix 
-NCVXQP1    10000     5000      equ lincon boxed nofix 
-NCVXQP2    10000     5000      equ lincon boxed nofix 
-NCVXQP3    10000     5000      equ lincon boxed nofix 
-NCVXQP4    10000     2500      equ lincon boxed nofix 
-NCVXQP5    10000     2500      equ lincon boxed nofix 
-NCVXQP6    10000     2500      equ lincon boxed nofix 
-NCVXQP7    10000     7500      equ lincon boxed nofix 
-NCVXQP8    10000     7500      equ lincon boxed nofix 
-NCVXQP9    10000     7500      equ lincon boxed nofix 
-NET1       48        57        gen lincon boxed fixed 
-NET2       144       160       gen lincon boxed fixed 
-NET3       464       521       gen lincon boxed fixed 
-NET4       66816     75024     gen lincon boxed fixed 
-NGONE      200       5048      inq lincon boxed fixed 
-NINE12     10399     11362     equ lincon boxed nofix 
-NINE5D     10733     17295     equ lincon boxed nofix 
-NINENEW    6546      7340      equ lincon boxed nofix 
-NLMSURF    5625      0         unc nlncon boxed fixed 
-NOBNDTOR   5476      0         unc nlncon boxed fixed 
-NONCVXU2   5000      0         unc nlncon nobnd nofix 
-NONCVXUN   5000      0         unc nlncon nobnd nofix 
-NONDIA     5000      0         unc nlncon nobnd nofix 
-NONDQUAR   5000      0         unc nlncon nobnd nofix 
-NONMSQRT   4900      0         unc nlncon nobnd nofix 
-NONSCOMP   5000      0         unc nlncon boxed nofix 
-NUFFIELD   940       5000      inq lincon boxed fixed 
-NYSTROM5   18        20        equ lincon boxed fixed 
-OBSTCLAE   10000     0         unc nlncon boxed fixed 
-OBSTCLAL   10000     0         unc nlncon boxed fixed 
-OBSTCLBL   10000     0         unc nlncon boxed fixed 
-OBSTCLBM   10000     0         unc nlncon boxed fixed 
-OBSTCLBU   10000     0         unc nlncon boxed fixed 
-ODC        5184      0         unc nlncon boxed fixed 
-ODFITS     10        6         equ lincon lower nofix 
-ODNAMUR    11130     0         unc nlncon lower nofix 
-OET1       3         1002      inq lincon nobnd nofix 
-OET2       3         1002      inq nlncon nobnd nofix 
-OET3       4         1002      inq lincon nobnd nofix 
-OET4       4         1002      inq nlncon nobnd nofix 
-OET5       5         1002      inq nlncon nobnd nofix 
-OET6       5         1002      inq nlncon nobnd nofix 
-OET7       7         1002      inq nlncon nobnd nofix 
-OPTCDEG2   4502      3000      equ lincon boxed fixed 
-OPTCDEG3   4502      3000      equ lincon boxed fixed 
-OPTCNTRL   32        20        equ lincon boxed fixed 
-OPTCTRL3   4502      3000      equ lincon boxed fixed 
-OPTCTRL6   4502      3000      equ lincon boxed fixed 
-OPTMASS    3010      2505      gen lincon boxed fixed 
-OPTPRLOC   30        30        inq lincon boxed nofix 
-ORBIT2     2698      2097      gen nlncon boxed fixed 
-ORTHRDM2   8003      4000      equ nlncon nobnd nofix 
-ORTHRDS2   5003      2500      equ nlncon nobnd nofix 
-ORTHREGA   8197      4096      equ nlncon nobnd nofix 
-ORTHREGB   27        6         equ nlncon nobnd nofix 
-ORTHREGC   5005      2500      equ nlncon nobnd nofix 
-ORTHREGD   5003      2500      equ nlncon nobnd nofix 
-ORTHREGE   7506      5000      equ nlncon lower nofix 
-ORTHREGF   4805      1600      equ nlncon lower nofix 
-ORTHRGDM   10003     5000      equ nlncon nobnd nofix 
-ORTHRGDS   5003      2500      equ nlncon nobnd nofix 
-OSBORNEA   5         0         unc nlncon nobnd nofix 
-OSBORNEB   11        0         unc nlncon nobnd nofix 
-OSCIGRAD   100000    0         unc nlncon nobnd nofix 
-OSCIGRNE   100000    100000    equ nlncon nobnd nofix 
-OSCIPANE   10        10        equ lincon nobnd nofix 
-OSCIPATH   10        0         unc nlncon nobnd nofix 
-OSLBQP     8         0         unc nlncon boxed nofix 
-OSORIO     10201     202       equ lincon boxed nofix 
-PALMER1    4         0         unc nlncon lower nofix 
-PALMER1A   6         0         unc nlncon lower nofix 
-PALMER1B   4         0         unc nlncon lower nofix 
-PALMER1C   8         0         unc nlncon nobnd nofix 
-PALMER1D   7         0         unc nlncon nobnd nofix 
-PALMER1E   8         0         unc nlncon lower nofix 
-PALMER2    4         0         unc nlncon lower nofix 
-PALMER2A   6         0         unc nlncon lower nofix 
-PALMER2B   4         0         unc nlncon lower nofix 
-PALMER2C   8         0         unc nlncon nobnd nofix 
-PALMER2E   8         0         unc nlncon lower nofix 
-PALMER3    4         0         unc nlncon lower nofix 
-PALMER3A   6         0         unc nlncon lower nofix 
-PALMER3B   4         0         unc nlncon lower nofix 
-PALMER3C   8         0         unc nlncon nobnd nofix 
-PALMER3E   8         0         unc nlncon lower nofix 
-PALMER4    4         0         unc nlncon lower nofix 
-PALMER4A   6         0         unc nlncon lower nofix 
-PALMER4B   4         0         unc nlncon lower nofix 
-PALMER4C   8         0         unc nlncon nobnd nofix 
-PALMER4E   8         0         unc nlncon lower nofix 
-PALMER5A   8         0         unc nlncon lower nofix 
-PALMER5B   9         0         unc nlncon lower nofix 
-PALMER5C   6         0         unc nlncon nobnd nofix 
-PALMER5D   4         0         unc nlncon nobnd nofix 
-PALMER5E   8         0         unc nlncon lower nofix 
-PALMER6A   6         0         unc nlncon lower nofix 
-PALMER6C   8         0         unc nlncon nobnd nofix 
-PALMER6E   8         0         unc nlncon lower nofix 
-PALMER7A   6         0         unc nlncon lower nofix 
-PALMER7C   8         0         unc nlncon nobnd nofix 
-PALMER7E   8         0         unc nlncon lower nofix 
-PALMER8A   6         0         unc nlncon lower nofix 
-PALMER8C   8         0         unc nlncon nobnd nofix 
-PALMER8E   8         0         unc nlncon lower nofix 
-PARKCH     15        0         unc nlncon nobnd nofix 
-PDE1       90602     270595    gen lincon boxed nofix 
-PDE2       180600    270595    gen lincon boxed nofix 
-PENALTY1   1000      0         unc nlncon nobnd nofix 
-PENALTY2   200       0         unc nlncon nobnd nofix 
-PENALTY3   200       0         unc nlncon nobnd nofix 
-PENTAGON   6         15        inq lincon nobnd nofix 
-PENTDI     5000      0         unc nlncon lower nofix 
-PFIT1      3         3         equ nlncon lower nofix 
-PFIT1LS    3         0         unc nlncon lower nofix 
-PFIT2      3         3         equ nlncon lower nofix 
-PFIT2LS    3         0         unc nlncon lower nofix 
-PFIT3      3         3         equ nlncon lower nofix 
-PFIT3LS    3         0         unc nlncon lower nofix 
-PFIT4      3         3         equ nlncon lower nofix 
-PFIT4LS    3         0         unc nlncon lower nofix 
-PINENE     8805      8795      equ lincon boxed fixed 
-POLAK1     3         2         inq nlncon nobnd nofix 
-POLAK2     11        2         inq nlncon nobnd nofix 
-POLAK3     12        10        inq nlncon nobnd nofix 
-POLAK4     3         3         inq nlncon nobnd nofix 
-POLAK5     3         2         inq nlncon nobnd nofix 
-POLAK6     5         4         inq nlncon nobnd nofix 
-POLYGON    200       5049      inq lincon boxed fixed 
-POROUS1    5184      4900      equ nlncon boxed fixed 
-POROUS2    5184      4900      equ nlncon boxed fixed 
-PORTFL1    12        1         equ lincon boxed nofix 
-PORTFL2    12        1         equ lincon boxed nofix 
-PORTFL3    12        1         equ lincon boxed nofix 
-PORTFL4    12        1         equ lincon boxed nofix 
-PORTFL6    12        1         equ lincon boxed nofix 
-PORTSNQP   100000    2         equ lincon lower nofix 
-PORTSQP    100000    1         equ lincon lower nofix 
-POWELL20   5000      5000      inq lincon nobnd nofix 
-POWELLBC   1000      0         unc nlncon boxed nofix 
-POWELLBS   2         2         equ nlncon nobnd nofix 
-POWELLSG   5000      0         unc nlncon nobnd nofix 
-POWELLSQ   2         2         equ nlncon nobnd nofix 
-POWER      10000     0         unc nlncon nobnd nofix 
-PRIMAL1    325       85        inq lincon lower nofix 
-PRIMAL2    649       96        inq lincon lower nofix 
-PRIMAL3    745       111       inq lincon lower nofix 
-PRIMAL4    1489      75        inq lincon lower nofix 
-PRIMALC1   230       9         inq lincon lower nofix 
-PRIMALC2   231       7         inq lincon lower nofix 
-PRIMALC5   287       8         inq lincon lower nofix 
-PRIMALC8   520       8         inq lincon lower nofix 
-PROBPENL   500       0         unc nlncon boxed nofix 
-PRODPL0    60        29        gen lincon lower nofix 
-PRODPL1    60        29        gen lincon lower nofix 
-PSPDOC     4         0         unc nlncon upper nofix 
-PT         2         501       inq lincon nobnd nofix 
-QPBAND     50000     25000     inq lincon boxed nofix 
-QC         9         4         inq lincon boxed fixed 
-QCNEW      9         3         inq lincon boxed fixed 
-QPCBLEND   83        74        gen lincon lower nofix 
-QPCBOEI1   384       351       gen lincon boxed nofix 
-QPCBOEI2   143       166       gen lincon boxed nofix 
-QPCSTAIR   467       356       gen lincon boxed fixed 
-QPNBAND    50000     25000     inq lincon boxed nofix 
-QPNBLEND   83        74        gen lincon lower nofix 
-QPNBOEI1   384       351       gen lincon boxed nofix 
-QPNBOEI2   143       166       gen lincon boxed nofix 
-QPNSTAIR   467       356       gen lincon boxed fixed 
-QR3D       610       610       equ nlncon lower nofix 
-QR3DBD     457       610       equ nlncon lower nofix 
-QR3DLS     610       0         unc nlncon lower nofix 
-QRTQUAD    5000      0         unc nlncon boxed nofix 
-QUARTC     5000      0         unc nlncon nobnd nofix 
-QUDLIN     5000      0         unc nlncon boxed nofix 
-RAYBENDL   2050      0         unc nlncon boxed fixed 
-RAYBENDS   2050      0         unc nlncon boxed fixed 
-READING1   4002      2000      equ nlncon boxed fixed 
-READING2   6003      4000      equ lincon boxed fixed 
-READING3   4002      2001      equ lincon boxed nofix 
-READING4   5001      5000      inq nlncon boxed fixed 
-READING5   5001      5000      equ nlncon boxed fixed 
-READING6   102       50        equ nlncon boxed fixed 
-READING7   1002      500       equ nlncon boxed fixed 
-READING8   2002      1000      equ nlncon boxed fixed 
-READING9   10002     5000      equ nlncon boxed fixed 
-RDW2D52B   132098    65025     equ nlncon boxed fixed 
-RDW2D52U   132098    65025     equ nlncon boxed fixed 
-RDW2D51F   132098    65025     equ nlncon boxed fixed 
-RDW2D51U   132098    65025     equ nlncon boxed fixed 
-RDW2D52F   162       49        equ nlncon boxed fixed 
-RECIPE     3         3         equ lincon nobnd nofix 
-RES        20        14        gen lincon boxed nofix 
-RK23       17        11        equ lincon lower nofix 
-ROBOT      14        2         equ nlncon boxed fixed 
-ROBOTARM   4412      3202      equ nlncon boxed fixed 
-ROCKET     2407      2002      equ nlncon boxed fixed 
-ROSENBR    2         0         unc nlncon nobnd nofix 
-ROSENMMX   5         4         inq nlncon nobnd nofix 
-ROTDISC    905       1081      gen lincon boxed fixed 
-RSNBRNE    2         2         equ lincon nobnd nofix 
-S268       5         5         inq lincon nobnd nofix 
-S277-280   4         4         inq lincon lower nofix 
-S308       2         0         unc nlncon nobnd nofix 
-S316-322   2         1         equ nlncon nobnd nofix 
-S365       7         5         inq nlncon lower nofix 
-S365MOD    7         5         inq nlncon lower nofix 
-S368       8         0         unc nlncon boxed nofix 
-SARO       4754      4015      equ nlncon boxed fixed 
-SAROMM     5120      5110      gen lincon boxed fixed 
-SAWPATH    583       774       gen lincon boxed fixed 
-SBRYBND    5000      0         unc nlncon nobnd nofix 
-SCHMVETT   5000      0         unc nlncon nobnd nofix 
-SCOND1LS   5002      0         unc nlncon boxed fixed 
-SCOSINE    5000      0         unc nlncon nobnd nofix 
-SCURLY10   10000     0         unc nlncon nobnd nofix 
-SCURLY20   10000     0         unc nlncon nobnd nofix 
-SCURLY30   10000     0         unc nlncon nobnd nofix 
-SEMICN2U   5002      5000      equ nlncon boxed fixed 
-SEMICON1   5002      5000      equ nlncon boxed fixed 
-SEMICON2   5002      5000      equ nlncon boxed fixed 
-SENSORS    100       0         unc nlncon nobnd nofix 
-SIM2BQP    2         0         unc nlncon boxed fixed 
-SIMBQP     2         0         unc nlncon boxed nofix 
-SIMPLLPA   2         2         inq lincon lower nofix 
-SIMPLLPB   2         3         inq lincon lower nofix 
-SINEALI    1000      0         unc nlncon boxed nofix 
-SINEVAL    2         0         unc nlncon nobnd nofix 
-SINVALNE   2         2         equ lincon nobnd nofix 
-SINQUAD    5000      0         unc nlncon nobnd nofix 
-SINROSNB   1000      999       inq nlncon boxed nofix 
-SIPOW1     2         2000      inq lincon nobnd nofix 
-SIPOW1M    2         2000      inq lincon nobnd nofix 
-SIPOW2     2         2000      inq lincon nobnd nofix 
-SIPOW2M    2         2000      inq lincon nobnd nofix 
-SIPOW3     4         2000      inq lincon nobnd nofix 
-SIPOW4     4         2000      inq lincon nobnd nofix 
-SISSER     2         0         unc nlncon nobnd nofix 
-SMBANK     117       64        equ lincon boxed nofix 
-SMMPSF     720       263       gen lincon lower nofix 
-SNAIL      2         0         unc nlncon nobnd nofix 
-SNAKE      2         2         inq nlncon nobnd nofix 
-SOSQP1     5000      2501      equ lincon boxed nofix 
-SOSQP2     5000      2501      equ lincon boxed nofix 
-SPANHYD    97        33        equ lincon boxed fixed 
-SPARSINE   5000      0         unc nlncon nobnd nofix 
-SPARSQUR   10000     0         unc nlncon nobnd nofix 
-SPECAN     9         0         unc nlncon boxed nofix 
-SPIN       1327      1325      equ nlncon nobnd nofix 
-SPINOP     1327      1325      equ nlncon nobnd nofix 
-SPIN2      102       100       equ nlncon nobnd nofix 
-SPIN2OP    102       100       equ nlncon nobnd nofix 
-SPIRAL     3         2         inq nlncon nobnd nofix 
-SPMSQRT    4999      8329      equ nlncon nobnd nofix 
-SPMSRTLS   4999      0         unc nlncon nobnd nofix 
-SREADIN3   4002      2001      equ lincon boxed nofix 
-SROSENBR   5000      0         unc nlncon nobnd nofix 
-SSBRYBND   5000      0         unc nlncon nobnd nofix 
-SSC        5184      0         unc nlncon boxed fixed 
-SSCOSINE   10        0         unc nlncon nobnd nofix 
-SSEBLIN    194       72        gen lincon boxed fixed 
-SSEBNLN    194       96        gen lincon boxed fixed 
-SSNLBEAM   3003      2000      equ lincon boxed fixed 
-STANCMIN   3         2         inq lincon lower nofix 
-STATIC3    434       96        equ lincon lower nofix 
-STCQP1     8193      4095      equ lincon boxed nofix 
-STCQP2     8193      4095      equ lincon boxed nofix 
-STEENBRA   432       108       equ lincon lower nofix 
-STEENBRB   468       108       equ lincon lower nofix 
-STEENBRC   540       126       equ lincon lower nofix 
-STEENBRD   468       108       equ lincon lower nofix 
-STEENBRE   540       126       equ lincon lower nofix 
-STEENBRF   468       108       equ lincon lower nofix 
-STEENBRG   540       126       equ lincon lower nofix 
-STEERING   2006      1600      equ nlncon boxed fixed 
-STNQP1     8193      4095      equ lincon boxed nofix 
-STNQP2     8193      4095      equ lincon boxed nofix 
-STRATEC    10        0         unc nlncon nobnd nofix 
-SUPERSIM   2         2         equ lincon lower nofix 
-SVANBERG   5000      5000      inq nlncon boxed nofix 
-SWOPF      83        92        gen lincon boxed nofix 
-SYNPOP24   6968      7353      equ lincon lower nofix 
-SYNTHES1   6         6         inq lincon boxed nofix 
-SYNTHES2   11        14        gen lincon boxed nofix 
-SYNTHES3   17        23        gen lincon boxed nofix 
-TABLE1     1584      510       equ lincon boxed nofix 
-TABLE3     4992      2464      equ lincon boxed nofix 
-TABLE4     4992      2464      equ lincon boxed nofix 
-TABLE5     4992      2464      equ lincon boxed nofix 
-TABLE6     1584      510       equ lincon boxed nofix 
-TABLE7     624       230       equ lincon boxed nofix 
-TABLE8     1271      72        equ lincon boxed nofix 
-TAME       2         1         equ lincon lower nofix 
-TARGUS     162       63        equ lincon boxed nofix 
-TENBARS1   18        9         gen lincon lower nofix 
-TENBARS2   18        8         equ nlncon lower nofix 
-TENBARS3   18        8         equ nlncon lower nofix 
-TENBARS4   18        9         gen lincon lower nofix 
-TESTQUAD   5000      0         unc nlncon nobnd nofix 
-TFI1       3         101       inq nlncon nobnd nofix 
-TFI2       3         101       inq lincon nobnd nofix 
-TFI3       3         101       inq lincon nobnd nofix 
-TOINTGOR   50        0         unc nlncon nobnd nofix 
-TOINTGSS   5000      0         unc nlncon nobnd nofix 
-TOINTPSP   50        0         unc nlncon nobnd nofix 
-TOINTQOR   50        0         unc nlncon nobnd nofix 
-TORSION1   5476      0         unc nlncon boxed fixed 
-TORSION2   5476      0         unc nlncon boxed fixed 
-TORSION3   5476      0         unc nlncon boxed fixed 
-TORSION4   5476      0         unc nlncon boxed fixed 
-TORSION5   5476      0         unc nlncon boxed fixed 
-TORSION6   5476      0         unc nlncon boxed fixed 
-TORSIONA   5476      0         unc nlncon boxed fixed 
-TORSIONB   5476      0         unc nlncon boxed fixed 
-TORSIONC   5476      0         unc nlncon boxed fixed 
-TORSIOND   5476      0         unc nlncon boxed fixed 
-TORSIONE   5476      0         unc nlncon boxed fixed 
-TORSIONF   5476      0         unc nlncon boxed fixed 
-TOYSARAH   2890      1649      equ lincon boxed nofix 
-TQUARTIC   5000      0         unc nlncon nobnd nofix 
-TRAINF     4008      2002      equ lincon boxed fixed 
-TRAINH     4008      2002      equ lincon boxed fixed 
-TRIDIA     5000      0         unc nlncon nobnd nofix 
-TRIGGER    7         6         equ lincon boxed fixed 
-TRIMLOSS   142       75        gen lincon boxed nofix 
-TRO11X3    150       61        gen lincon lower nofix 
-TRO21X5    540       201       gen lincon lower nofix 
-TRO3X3     30        13        gen lincon lower nofix 
-TRO41X9    2040      721       gen lincon lower nofix 
-TRO4X4     63        25        gen lincon lower nofix 
-TRO5X5     108       41        gen lincon lower nofix 
-TRO6X2     45        21        gen lincon lower nofix 
-TRUSPYR1   11        4         gen lincon lower nofix 
-TRUSPYR2   11        11        gen lincon lower nofix 
-TRY-B      2         1         equ nlncon lower nofix 
-TWIRISM1   343       313       gen lincon boxed nofix 
-TWIRIMD1   1247      712       gen lincon boxed nofix 
-TWIRIBG1   3127      1239      gen lincon boxed nofix 
-TWOBARS    2         2         inq nlncon boxed nofix 
-TWOD       70521     67080     equ lincon boxed fixed 
-TWO5IN6    5681      9629      equ lincon boxed nofix 
-UBH1       9009      6000      equ lincon boxed fixed 
-UBH5       5010      3500      equ lincon boxed fixed 
-VANDERM1   100       199       gen lincon nobnd nofix 
-VANDERM2   100       199       gen lincon nobnd nofix 
-VANDERM3   100       199       gen lincon nobnd nofix 
-VANDERM4   100       199       gen lincon nobnd nofix 
-VARDIM     200       0         unc nlncon nobnd nofix 
-VAREIGVL   50        0         unc nlncon nobnd nofix 
-VIBRBEAM   8         0         unc nlncon nobnd nofix 
-WACHBIEG   3         2         equ lincon lower nofix 
-WALL10     1461      0         unc nlncon lower nofix 
-WALL20     5924      0         unc nlncon lower nofix 
-WALL50     37311     0         unc nlncon lower nofix 
-WALL100    149624    0         unc nlncon lower nofix 
-WATER      31        10        equ lincon boxed nofix 
-WATSON     12        0         unc nlncon nobnd nofix 
-WEEDS      3         0         unc nlncon boxed nofix 
-WOMFLET    3         3         inq nlncon nobnd nofix 
-WOODS      4000      0         unc nlncon nobnd nofix 
-WOODSNE    4000      3001      equ lincon nobnd nofix 
-YAO        2002      2000      inq lincon boxed fixed 
-YATP1SQ    123200    123200    equ nlncon nobnd nofix 
-YATP2SQ    123200    123200    equ nlncon nobnd nofix 
-YFIT       3         0         unc nlncon lower nofix 
-YFITNE     3         17        equ nlncon nobnd nofix 
-YFITU      3         0         unc nlncon nobnd nofix 
-YORKNET    312       256       equ lincon boxed nofix 
-ZAMB2      3966      1440      equ nlncon boxed fixed 
-ZAMB2-8    138       48        equ nlncon boxed fixed 
-ZAMB2-9    138       48        equ nlncon boxed fixed 
-ZAMB2-10   270       96        equ nlncon boxed fixed 
-ZAMB2-11   270       96        equ nlncon boxed fixed 
-ZANGWIL2   2         0         unc nlncon nobnd nofix 
-ZANGWIL3   3         3         equ lincon nobnd nofix 
-ZECEVIC2   2         2         inq lincon boxed nofix 
-ZECEVIC3   2         2         inq nlncon boxed nofix 
-ZECEVIC4   2         2         inq lincon boxed nofix 
-ZIGZAG     3004      2500      gen lincon boxed fixed 
-ZY2        3         2         inq nlncon boxed nofix 
+3PK       30        0         0         unc nlncon lower nofix 
+10FOLDTR  1000      1000      0         equ lincon nobnd nofix 
+A0ENDNDL  45006     15002     0         equ lincon boxed fixed 
+A0ENINDL  45006     15002     0         equ lincon boxed fixed 
+A0ENSNDL  45006     15002     0         equ lincon boxed fixed 
+A0ESDNDL  45006     15002     0         equ lincon boxed fixed 
+A0ESINDL  45006     15002     0         equ lincon boxed fixed 
+A0ESSNDL  45006     15002     0         equ lincon boxed fixed 
+A0NNDNDL  60012     20004     0         equ lincon boxed fixed 
+A0NNDNIL  60012     20004     0         equ lincon boxed fixed 
+A0NNDNSL  60012     20004     0         equ lincon boxed fixed 
+A0NNSNSL  60012     20004     0         equ lincon boxed fixed 
+A0NSDSDL  60012     20004     0         equ lincon boxed fixed 
+A0NSDSDS  6012      2004      0         equ lincon boxed fixed 
+A0NSDSIL  60012     20004     0         equ lincon boxed fixed 
+A0NSDSSL  60012     20004     0         equ lincon boxed fixed 
+A0NSSSSL  60012     20004     0         equ lincon boxed fixed 
+A2ENDNDL  45006     15002     0         equ lincon boxed fixed 
+A2ENINDL  45006     15002     0         equ lincon boxed fixed 
+A2ENSNDL  45006     15002     0         equ lincon boxed fixed 
+A2ESDNDL  45006     15002     0         equ lincon boxed fixed 
+A2ESINDL  45006     15002     0         equ lincon boxed fixed 
+A2ESSNDL  45006     15002     0         equ lincon boxed fixed 
+A2NNDNDL  60012     20004     0         equ lincon boxed fixed 
+A2NNDNIL  60012     20004     0         equ lincon boxed fixed 
+A2NNDNSL  60012     20004     0         equ lincon boxed fixed 
+A2NNSNSL  60012     20004     0         equ lincon boxed fixed 
+A2NSDSDL  60012     20004     0         equ lincon boxed fixed 
+A2NSDSIL  60012     20004     0         equ lincon boxed fixed 
+A2NSDSSL  60012     20004     0         equ lincon boxed fixed 
+A2NSSSSL  60012     20004     0         equ lincon boxed fixed 
+A5ENDNDL  45006     15002     0         equ lincon boxed fixed 
+A5ENINDL  45006     15002     0         equ lincon boxed fixed 
+A5ENSNDL  45006     15002     0         equ lincon boxed fixed 
+A5ESDNDL  45006     15002     0         equ lincon boxed fixed 
+A5ESINDL  45006     15002     0         equ lincon boxed fixed 
+A5ESSNDL  45006     15002     0         equ lincon boxed fixed 
+A5NNDNDL  60012     20004     0         equ lincon boxed fixed 
+A5NNDNIL  60012     20004     0         equ lincon boxed fixed 
+A5NNDNSL  60012     20004     0         equ lincon boxed fixed 
+A5NNSNSL  60012     20004     0         equ lincon boxed fixed 
+A5NSDSDL  60012     20004     0         equ lincon boxed fixed 
+A5NSDSDM  6012      2004      0         equ lincon boxed fixed 
+A5NSDSIL  60012     20004     0         equ lincon boxed fixed 
+A5NSDSSL  60012     20004     0         equ lincon boxed fixed 
+A5NSSNSM  6012      2004      0         equ lincon boxed fixed 
+A5NSSSSL  60012     20004     0         equ lincon boxed fixed 
+ACOPP14   38        28        40        gen nlncon boxed nofix 
+ACOPP30   72        60        82        gen nlncon boxed nofix 
+ACOPP57   128       114       160       gen nlncon boxed nofix 
+ACOPP118  344       236       372       gen nlncon boxed nofix 
+ACOPP300  738       600       822       gen nlncon boxed nofix 
+ACOPR14   38        28        54        gen nlncon boxed nofix 
+ACOPR30   72        60        112       gen nlncon boxed nofix 
+ACOPR57   128       114       217       gen nlncon boxed nofix 
+ACOPR118  344       236       490       gen nlncon boxed nofix 
+ACOPR300  738       600       1122      gen nlncon boxed nofix 
+AGG       163       36        452       gen lincon lower nofix 
+AIRCRFTA  8         5         0         equ nlncon boxed fixed 
+AIRCRFTB  8         0         0         unc nlncon boxed fixed 
+AIRPORT   84        0         42        inq nlncon boxed nofix 
+AKIVA     2         0         0         unc nlncon nobnd nofix 
+ALJAZZAF  1000      1         0         equ nlncon lower nofix 
+ALLINIT   4         0         0         unc nlncon boxed fixed 
+ALLINITA  4         2         2         gen lincon boxed fixed 
+ALLINITC  4         1         0         equ nlncon boxed fixed 
+ALLINITU  4         0         0         unc nlncon nobnd nofix 
+ALLINQP   50000     6250      18750     gen lincon boxed fixed 
+ALSOTAME  2         1         0         equ nlncon boxed nofix 
+ANTWERP   27        8         2         gen lincon boxed nofix 
+ARGLALE   200       400       0         equ lincon nobnd nofix 
+ARGAUSS   3         15        0         equ nlncon nobnd nofix 
+ARGLBLE   200       400       0         equ lincon nobnd nofix 
+ARGLCLE   200       399       0         equ lincon nobnd nofix 
+ARGLINA   200       0         0         unc nlncon nobnd nofix 
+ARGLINB   200       0         0         unc nlncon nobnd nofix 
+ARGLINC   200       0         0         unc nlncon nobnd nofix 
+ARGTRIG   200       200       0         equ nlncon nobnd nofix 
+ARTIF     5002      5000      0         equ nlncon boxed fixed 
+ARWHEAD   5000      0         0         unc nlncon nobnd nofix 
+ARWHDNE   500       998       0         equ lincon nobnd nofix 
+AUG2D     20200     10000     0         equ lincon nobnd nofix 
+AUG2DC    20200     10000     0         equ lincon nobnd nofix 
+AUG2DCQP  20200     10000     0         equ lincon lower nofix 
+AUG2DQP   20200     10000     0         equ lincon lower nofix 
+AUG3D     27543     8000      0         equ lincon nobnd nofix 
+AUG3DC    27543     8000      0         equ lincon nobnd nofix 
+AUG3DCQP  27543     8000      0         equ lincon lower nofix 
+AUG3DQP   27543     8000      0         equ lincon lower nofix 
+AVGASA    8         0         10        inq lincon boxed nofix 
+AVGASB    8         0         10        inq lincon boxed nofix 
+AVION2    49        15        0         equ lincon boxed nofix 
+A4X12     130       1         384       gen lincon boxed fixed 
+BARD      3         0         0         unc nlncon nobnd nofix 
+BATCH     48        12        61        gen lincon boxed nofix 
+BDEXP     5000      0         0         unc nlncon lower nofix 
+BDRY2     251001    250498    0         equ lincon boxed fixed 
+BDQRTIC   5000      0         0         unc nlncon nobnd nofix 
+BDVALUE   5002      5000      0         equ nlncon boxed fixed 
+BDVALUES  10002     10000     0         equ nlncon boxed fixed 
+BEALE     2         0         0         unc nlncon nobnd nofix 
+BIGBANK   2230      1112      0         equ lincon boxed fixed 
+BIGGS3    6         0         0         unc nlncon boxed fixed 
+BIGGS5    6         0         0         unc nlncon boxed fixed 
+BIGGS6    6         0         0         unc nlncon nobnd nofix 
+BIGGSB1   5000      0         0         unc nlncon boxed nofix 
+BIGGSC4   4         0         7         inq lincon boxed nofix 
+BLEACHNG  17        0         0         unc nlncon boxed fixed 
+BLOCKQP1  10010     5000      1         gen lincon boxed nofix 
+BLOCKQP2  10010     5000      1         gen lincon boxed nofix 
+BLOCKQP3  10010     5000      1         gen lincon boxed nofix 
+BLOCKQP4  10010     5000      1         gen lincon boxed nofix 
+BLOCKQP5  10010     5000      1         gen lincon boxed nofix 
+BLOWEYA   4002      2002      0         equ lincon boxed nofix 
+BLOWEYB   4002      2002      0         equ lincon boxed nofix 
+BLOWEYC   4002      2002      0         equ lincon boxed nofix 
+BOOTH     2         2         0         equ lincon nobnd nofix 
+BOX       10000     0         0         unc nlncon nobnd nofix 
+BOX2      3         0         0         unc nlncon boxed fixed 
+BOX3      3         0         0         unc nlncon nobnd nofix 
+BOXPOWER  20000     0         0         unc nlncon nobnd nofix 
+BQP1VAR   1         0         0         unc nlncon boxed nofix 
+BQPGABIM  50        0         0         unc nlncon boxed fixed 
+BQPGASIM  50        0         0         unc nlncon boxed nofix 
+BQPGAUSS  2003      0         0         unc nlncon boxed nofix 
+BRAINPC0  6907      6900      0         equ nlncon boxed fixed 
+BRAINPC1  6907      6900      0         equ nlncon boxed fixed 
+BRAINPC2  13807     13800     0         equ nlncon boxed fixed 
+BRAINPC3  6907      6900      0         equ nlncon boxed fixed 
+BRAINPC4  6907      6900      0         equ nlncon boxed fixed 
+BRAINPC5  6907      6900      0         equ nlncon boxed fixed 
+BRAINPC6  6907      6900      0         equ nlncon boxed fixed 
+BRAINPC7  6907      6900      0         equ nlncon boxed fixed 
+BRAINPC8  6907      6900      0         equ nlncon boxed fixed 
+BRAINPC9  6907      6900      0         equ nlncon boxed fixed 
+BRATU1D   5003      0         0         unc nlncon boxed fixed 
+BRATU2D   5184      4900      0         equ nlncon boxed fixed 
+BRATU2DT  5184      4900      0         equ nlncon boxed fixed 
+BRATU3D   4913      3375      0         equ nlncon boxed fixed 
+BRIDGEND  2734      2727      0         equ lincon boxed nofix 
+BRITGAS   450       360       0         equ nlncon boxed nofix 
+BRKMCC    2         0         0         unc nlncon nobnd nofix 
+BROWNAL   200       0         0         unc nlncon nobnd nofix 
+BROWNALE  200       200       0         equ lincon nobnd nofix 
+BROWNBS   2         0         0         unc nlncon nobnd nofix 
+BROWNDEN  4         0         0         unc nlncon nobnd nofix 
+BROYDN3D  5000      5000      0         equ nlncon nobnd nofix 
+BROYDN7D  5000      0         0         unc nlncon nobnd nofix 
+BROYDNBD  5000      5000      0         equ nlncon nobnd nofix 
+BRYBND    5000      0         0         unc nlncon nobnd nofix 
+BTS4      36570     36310     0         equ lincon boxed nofix 
+BT1       2         1         0         equ nlncon nobnd nofix 
+BT2       3         1         0         equ nlncon nobnd nofix 
+BT3       5         3         0         equ lincon nobnd nofix 
+BT4       3         2         0         equ lincon nobnd nofix 
+BT5       3         2         0         equ lincon nobnd nofix 
+BT6       5         2         0         equ nlncon nobnd nofix 
+BT7       5         3         0         equ nlncon nobnd nofix 
+BT8       5         2         0         equ nlncon nobnd nofix 
+BT9       4         2         0         equ nlncon nobnd nofix 
+BT10      2         2         0         equ nlncon nobnd nofix 
+BT11      5         3         0         equ lincon nobnd nofix 
+BT12      5         3         0         equ nlncon nobnd nofix 
+BT13      5         1         0         equ nlncon lower nofix 
+BURKEHAN  1         0         1         inq nlncon upper nofix 
+BYRDSPHR  3         2         0         equ nlncon nobnd nofix 
+CAMEL6    2         0         0         unc nlncon boxed nofix 
+CAMSHAPE  800       0         1603      inq lincon boxed nofix 
+CANTILVR  5         0         1         inq nlncon lower nofix 
+CAR2      5999      3996      1000      gen nlncon boxed fixed 
+CATENA    3003      1000      0         equ nlncon boxed fixed 
+CATENARY  3003      1000      0         equ nlncon boxed fixed 
+CATMIX    2403      1600      0         equ nlncon boxed fixed 
+CBS       11163     244       0         equ lincon boxed nofix 
+CB2       3         0         3         inq nlncon nobnd nofix 
+CB3       3         0         3         inq nlncon nobnd nofix 
+CBRATU2D  3200      2888      0         equ nlncon boxed fixed 
+CBRATU3D  3456      2000      0         equ nlncon boxed fixed 
+CHACONN1  3         0         3         inq nlncon nobnd nofix 
+CHACONN2  3         0         3         inq nlncon nobnd nofix 
+CHAIN     802       401       0         equ lincon boxed fixed 
+CHAINWOO  4000      0         0         unc nlncon nobnd nofix 
+CHANDHEQ  100       100       0         equ nlncon lower nofix 
+CHANDHEU  500       500       0         equ nlncon nobnd nofix 
+CHANNEL   9600      9598      0         equ lincon boxed fixed 
+CHARDIS0  2000      0         0         unc nlncon boxed nofix 
+CHARDIS1  2000      0         999       inq nlncon boxed fixed 
+CHEBYQAD  100       0         0         unc nlncon boxed nofix 
+CHEMRCTA  5000      5000      0         equ lincon lower nofix 
+CHEMRCTB  5000      5000      0         equ lincon lower nofix 
+CHENHARK  5000      0         0         unc nlncon lower nofix 
+CHNROSNB  50        0         0         unc nlncon nobnd nofix 
+CHNRSBNE  50        98        0         equ lincon nobnd nofix 
+CHNRSNBM  50        0         0         unc nlncon nobnd nofix 
+CLIFF     2         0         0         unc nlncon nobnd nofix 
+CLNLBEAM  6003      4000      0         equ lincon boxed fixed 
+CLPLATEA  5041      0         0         unc nlncon boxed fixed 
+CLPLATEB  5041      0         0         unc nlncon boxed fixed 
+CLPLATEC  5041      0         0         unc nlncon boxed fixed 
+CLUSTER   2         2         0         equ nlncon nobnd nofix 
+CONCON    15        11        0         equ lincon upper nofix 
+CONGIGMZ  3         0         5         inq lincon nobnd nofix 
+CONT5-QP  40601     40200     0         equ lincon boxed fixed 
+CONT6-QQ  20002     10197     0         equ lincon boxed nofix 
+COOLHANS  9         9         0         equ nlncon nobnd nofix 
+CORE1     65        41        18        gen lincon boxed nofix 
+CORE2     157       108       26        gen lincon boxed nofix 
+CORKSCRW  4506      3000      500       gen lincon boxed fixed 
+COSHFUN   6001      0         2000      inq nlncon nobnd nofix 
+COSINE    10000     0         0         unc nlncon nobnd nofix 
+CRAGGLVY  5000      0         0         unc nlncon nobnd nofix 
+C-RELOAD  342       200       84        gen lincon boxed nofix 
+CRESC100  6         0         200       inq nlncon boxed nofix 
+CRESC132  6         0         2654      inq nlncon boxed nofix 
+CRESC4    6         0         8         inq nlncon boxed nofix 
+CRESC50   6         0         100       inq nlncon boxed nofix 
+CSFI1     5         2         2         gen nlncon boxed nofix 
+CSFI2     5         2         2         gen nlncon lower nofix 
+CUBE      2         0         0         unc nlncon nobnd nofix 
+CUBENE    2         2         0         equ lincon nobnd nofix 
+CURLY10   10000     0         0         unc nlncon nobnd nofix 
+CURLY20   10000     0         0         unc nlncon nobnd nofix 
+CURLY30   10000     0         0         unc nlncon nobnd nofix 
+CVXBQP1   10000     0         0         unc nlncon boxed nofix 
+CVXQP1    10000     5000      0         equ lincon boxed nofix 
+CVXQP2    10000     2500      0         equ lincon boxed nofix 
+CVXQP3    10000     7500      0         equ lincon boxed nofix 
+CYCLIC3   100002    100002    0         equ lincon nobnd nofix 
+DALE      16514     405       0         equ lincon boxed nofix 
+DALLASL   906       667       0         equ lincon boxed nofix 
+DALLASM   196       151       0         equ lincon boxed nofix 
+DALLASS   46        31        0         equ lincon boxed nofix 
+DECONVB   63        0         0         unc nlncon boxed fixed 
+DECONVC   63        1         0         equ nlncon boxed fixed 
+DECONVU   63        0         0         unc nlncon boxed fixed 
+DECONVNE  63        40        0         equ nlncon boxed fixed 
+DEGENLPA  20        15        0         equ lincon boxed nofix 
+DEGENLPB  20        15        0         equ lincon boxed nofix 
+DEGDIAG   100001    0         0         unc nlncon lower nofix 
+DEGENQP   50        25        125000    gen lincon boxed nofix 
+DEGENQPC  50        25        19600     gen lincon boxed nofix 
+DEGTRID   100001    0         0         unc nlncon lower nofix 
+DEGTRID2  100001    0         0         unc nlncon lower nofix 
+DEGTRIDL  100001    1         0         equ lincon lower nofix 
+DEMBO7    16        0         20        inq lincon boxed nofix 
+DEMYMALO  3         0         3         inq lincon nobnd nofix 
+DENSCHNA  2         0         0         unc nlncon nobnd nofix 
+DENSCHNB  2         0         0         unc nlncon nobnd nofix 
+DENSCHNC  2         0         0         unc nlncon nobnd nofix 
+DENSCHND  3         0         0         unc nlncon nobnd nofix 
+DENSCHNE  3         0         0         unc nlncon nobnd nofix 
+DENSCHNF  2         0         0         unc nlncon nobnd nofix 
+DIPIGRI   7         0         4         inq nlncon nobnd nofix 
+DISC2     29        17        6         gen nlncon boxed nofix 
+DISCS     36        18        48        gen nlncon boxed fixed 
+DITTERT   1133      1034      0         equ lincon boxed nofix 
+DIXCHLNG  10        5         0         equ nlncon nobnd nofix 
+DIXCHLNV  1000      500       0         equ nlncon lower nofix 
+DIXMAANA  3000      0         0         unc nlncon nobnd nofix 
+DIXMAANB  3000      0         0         unc nlncon nobnd nofix 
+DIXMAANC  3000      0         0         unc nlncon nobnd nofix 
+DIXMAAND  3000      0         0         unc nlncon nobnd nofix 
+DIXMAANE  3000      0         0         unc nlncon nobnd nofix 
+DIXMAANF  3000      0         0         unc nlncon nobnd nofix 
+DIXMAANG  3000      0         0         unc nlncon nobnd nofix 
+DIXMAANH  3000      0         0         unc nlncon nobnd nofix 
+DIXMAANI  3000      0         0         unc nlncon nobnd nofix 
+DIXMAANJ  3000      0         0         unc nlncon nobnd nofix 
+DIXMAANK  3000      0         0         unc nlncon nobnd nofix 
+DIXMAANL  3000      0         0         unc nlncon nobnd nofix 
+DIXMAANM  15        0         0         unc nlncon nobnd nofix 
+DIXMAANN  15        0         0         unc nlncon nobnd nofix 
+DIXMAANO  15        0         0         unc nlncon nobnd nofix 
+DIXMAANP  15        0         0         unc nlncon nobnd nofix 
+DIXON3DQ  10000     0         0         unc nlncon nobnd nofix 
+DJTL      2         0         0         unc nlncon nobnd nofix 
+DNIEPER   61        24        0         equ nlncon boxed fixed 
+DQDRTIC   5000      0         0         unc nlncon nobnd nofix 
+DQRTIC    5000      0         0         unc nlncon nobnd nofix 
+DRCAV1LQ  4489      0         0         unc nlncon boxed fixed 
+DRCAV2LQ  4489      0         0         unc nlncon boxed fixed 
+DRCAV3LQ  4489      0         0         unc nlncon boxed fixed 
+DRCAVTY1  4489      3969      0         equ nlncon boxed fixed 
+DRCAVTY2  4489      3969      0         equ nlncon boxed fixed 
+DRCAVTY3  4489      3969      0         equ nlncon boxed fixed 
+DRUGDIS   6004      4000      0         equ nlncon boxed fixed 
+DRUGDISE  603       500       0         equ nlncon boxed fixed 
+DTOC1L    5998      3996      0         equ lincon boxed fixed 
+DTOC1NA   5998      3996      0         equ nlncon boxed fixed 
+DTOC1NB   5998      3996      0         equ nlncon boxed fixed 
+DTOC1NC   5998      3996      0         equ nlncon boxed fixed 
+DTOC1ND   5998      3996      0         equ nlncon boxed fixed 
+DTOC2     5998      3996      0         equ nlncon boxed fixed 
+DTOC3     4499      2998      0         equ lincon boxed fixed 
+DTOC4     4499      2998      0         equ lincon boxed fixed 
+DTOC5     9999      4999      0         equ nlncon boxed fixed 
+DTOC6     10001     5000      0         equ nlncon boxed fixed 
+DUAL1     85        1         0         equ lincon boxed nofix 
+DUAL2     96        1         0         equ lincon boxed nofix 
+DUAL3     111       1         0         equ lincon boxed nofix 
+DUAL4     75        1         0         equ lincon boxed nofix 
+DUALC1    9         1         214       gen lincon boxed nofix 
+DUALC2    7         1         228       gen lincon boxed nofix 
+DUALC5    8         1         277       gen lincon boxed nofix 
+DUALC8    8         1         502       gen lincon boxed nofix 
+EDENSCH   2000      0         0         unc nlncon nobnd nofix 
+EG1       3         0         0         unc nlncon boxed nofix 
+EG2       1000      0         0         unc nlncon nobnd nofix 
+EG3       10001     1         19999     gen nlncon boxed nofix 
+EIGENA    2550      2550      0         equ nlncon lower nofix 
+EIGENA2   2550      1275      0         equ nlncon nobnd nofix 
+EIGENACO  2550      1275      0         equ nlncon nobnd nofix 
+EIGENALS  2550      0         0         unc nlncon nobnd nofix 
+EIGENAU   2550      2550      0         equ nlncon nobnd nofix 
+EIGENB    2550      2550      0         equ nlncon nobnd nofix 
+EIGENB2   2550      1275      0         equ nlncon nobnd nofix 
+EIGENBCO  2550      1275      0         equ nlncon nobnd nofix 
+EIGENBLS  2550      0         0         unc nlncon nobnd nofix 
+EIGENC    2652      2652      0         equ nlncon nobnd nofix 
+EIGENC2   2652      1326      0         equ nlncon nobnd nofix 
+EIGENCCO  2652      1326      0         equ nlncon nobnd nofix 
+EIGENCLS  2652      0         0         unc nlncon nobnd nofix 
+EIGMAXA   101       101       0         equ nlncon boxed nofix 
+EIGMAXB   101       101       0         equ nlncon boxed nofix 
+EIGMAXC   202       202       0         equ nlncon boxed nofix 
+EIGMINA   101       101       0         equ nlncon boxed nofix 
+EIGMINB   101       101       0         equ nlncon boxed nofix 
+EIGMINC   202       202       0         equ nlncon boxed nofix 
+ELATTAR   7         0         102       inq nlncon nobnd nofix 
+ELEC      600       200       0         equ nlncon nobnd nofix 
+ENGVAL1   5000      0         0         unc nlncon nobnd nofix 
+ENGVAL2   3         0         0         unc nlncon nobnd nofix 
+EQC       9         0         3         inq lincon boxed fixed 
+ERRINBAR  18        8         1         gen lincon lower nofix 
+ERRINROS  50        0         0         unc nlncon nobnd nofix 
+ERRINRSM  50        0         0         unc nlncon nobnd nofix 
+EXPFIT    2         0         0         unc nlncon nobnd nofix 
+EXPFITA   5         0         22        inq lincon nobnd nofix 
+EXPFITB   5         0         102       inq lincon nobnd nofix 
+EXPFITC   5         0         502       inq lincon nobnd nofix 
+EXPLIN    1200      0         0         unc nlncon boxed nofix 
+EXPLIN2   1200      0         0         unc nlncon boxed nofix 
+EXPQUAD   1200      0         0         unc nlncon boxed nofix 
+EXTRASIM  2         1         0         equ lincon lower nofix 
+EXTROSNB  1000      0         0         unc nlncon nobnd nofix 
+FCCU      19        8         0         equ lincon lower nofix 
+FEEDLOC   90        19        240       gen lincon boxed fixed 
+FERRISDC  2200      210       0         equ lincon boxed fixed 
+FIVE20B   34552     52983     0         equ lincon boxed nofix 
+FIVE20C   34501     58825     0         equ lincon boxed nofix 
+FLETBV3M  5000      0         0         unc nlncon nobnd nofix 
+FLETCBV2  5000      0         0         unc nlncon nobnd nofix 
+FLETCBV3  5000      0         0         unc nlncon nobnd nofix 
+FLETCHBV  5000      0         0         unc nlncon nobnd nofix 
+FLETCHCR  1000      0         0         unc nlncon nobnd nofix 
+FLETCHER  4         1         3         gen lincon lower nofix 
+FLOSP2HH  2883      2763      0         equ lincon boxed fixed 
+FLOSP2HL  2883      2763      0         equ lincon boxed fixed 
+FLOSP2HM  2883      2763      0         equ lincon boxed fixed 
+FLOSP2TH  2883      2763      0         equ lincon boxed fixed 
+FLOSP2TL  2883      2763      0         equ lincon boxed fixed 
+FLOSP2TM  2883      2763      0         equ lincon boxed fixed 
+FLT       2         2         0         equ nlncon nobnd nofix 
+FMINSRF2  5625      0         0         unc nlncon nobnd nofix 
+FMINSURF  5625      0         0         unc nlncon nobnd nofix 
+FREUROTH  5000      0         0         unc nlncon nobnd nofix 
+GASOIL    10403     10398     0         equ lincon boxed fixed 
+GAUSSELM  22140     20540     41002     gen lincon boxed fixed 
+GENHS28   10        8         0         equ lincon nobnd nofix 
+GENHUMPS  5000      0         0         unc nlncon nobnd nofix 
+GENROSE   500       0         0         unc nlncon nobnd nofix 
+GIGOMEZ1  3         0         3         inq lincon nobnd nofix 
+GIGOMEZ2  3         0         3         inq nlncon nobnd nofix 
+GIGOMEZ3  3         0         3         inq nlncon nobnd nofix 
+GILBERT   5000      1         0         equ nlncon lower nofix 
+GLIDER    5214      4808      0         equ lincon boxed fixed 
+GMNCASE1  175       0         300       inq lincon nobnd nofix 
+GMNCASE2  175       0         1050      inq lincon nobnd nofix 
+GMNCASE3  175       0         1050      inq lincon nobnd nofix 
+GMNCASE4  175       0         350       inq lincon nobnd nofix 
+GOFFIN    51        0         50        inq lincon nobnd nofix 
+GOTTFR    2         2         0         equ nlncon nobnd nofix 
+GOULDQP1  32        17        0         equ lincon boxed nofix 
+GOULDQP2  19999     9999      0         equ lincon boxed nofix 
+GOULDQP3  19999     9999      0         equ lincon boxed nofix 
+GPP       1000      0         1998      inq lincon nobnd nofix 
+GRIDGENA  6218      0         0         unc nlncon boxed fixed 
+GRIDNETA  7564      3844      0         equ lincon boxed fixed 
+GRIDNETB  7564      3844      0         equ lincon nobnd nofix 
+GRIDNETC  7564      3844      0         equ lincon lower nofix 
+GRIDNETD  7564      3844      0         equ lincon boxed fixed 
+GRIDNETE  7564      3844      0         equ lincon nobnd nofix 
+GRIDNETF  7564      3844      0         equ lincon lower nofix 
+GRIDNETG  7564      3844      0         equ lincon boxed fixed 
+GRIDNETH  7564      3844      0         equ lincon nobnd nofix 
+GRIDNETI  7564      3844      0         equ lincon lower nofix 
+GROUPING  100       125       0         equ lincon boxed nofix 
+GROWTH    3         12        0         equ nlncon nobnd nofix 
+GROWTHLS  3         0         0         unc nlncon nobnd nofix 
+GULF      3         0         0         unc nlncon nobnd nofix 
+HADAMALS  400       0         0         unc nlncon boxed fixed 
+HADAMARD  401       210       800       gen lincon lower nofix 
+HAGER1    5001      2500      0         equ lincon boxed fixed 
+HAGER2    5001      2500      0         equ lincon boxed fixed 
+HAGER3    5001      2500      0         equ lincon boxed fixed 
+HAGER4    5001      2500      0         equ lincon boxed fixed 
+HAIFAL    343       0         8958      inq lincon nobnd nofix 
+HAIFAM    99        0         150       inq nlncon nobnd nofix 
+HAIFAS    13        0         9         inq nlncon nobnd nofix 
+HAIRY     2         0         0         unc nlncon nobnd nofix 
+HALDMADS  6         0         42        inq nlncon nobnd nofix 
+HANGING   3600      0         2330      inq nlncon boxed fixed 
+HARKERP2  1000      0         0         unc nlncon lower nofix 
+HART6     6         0         0         unc nlncon boxed nofix 
+HATFLDA   4         0         0         unc nlncon lower nofix 
+HATFLDB   4         0         0         unc nlncon boxed nofix 
+HATFLDC   25        0         0         unc nlncon boxed nofix 
+HATFLDD   3         0         0         unc nlncon nobnd nofix 
+HATFLDE   3         0         0         unc nlncon nobnd nofix 
+HATFLDF   3         3         0         equ nlncon nobnd nofix 
+HATFLDFL  3         0         0         unc nlncon nobnd nofix 
+HATFLDG   25        25        0         equ nlncon nobnd nofix 
+HATFLDH   4         0         7         inq lincon boxed nofix 
+HEART6    6         6         0         equ nlncon nobnd nofix 
+HEART6LS  6         0         0         unc nlncon nobnd nofix 
+HEART8    8         8         0         equ lincon nobnd nofix 
+HEART8LS  8         0         0         unc nlncon nobnd nofix 
+HELIX     3         0         0         unc nlncon nobnd nofix 
+HELSBY    1408      1399      0         equ lincon boxed nofix 
+HET-Z     2         0         1002      inq nlncon nobnd nofix 
+HIELOW    3         0         0         unc nlncon nobnd nofix 
+HIE1327D  1183      1443      0         equ lincon boxed nofix 
+HIE1372D  637       525       0         equ lincon boxed nofix 
+HIER133A  2197      3549      0         equ lincon boxed nofix 
+HIER133B  2197      3549      0         equ lincon boxed nofix 
+HIER133C  2197      3549      0         equ lincon boxed nofix 
+HIER133D  2197      3549      0         equ lincon boxed nofix 
+HIER133E  2197      3549      0         equ lincon boxed nofix 
+HIER13    2020      3313      0         equ lincon boxed nofix 
+HIER163A  4096      5376      0         equ lincon boxed nofix 
+HIER163B  4096      5376      0         equ lincon boxed nofix 
+HIER163C  4096      5376      0         equ lincon boxed nofix 
+HIER163D  4096      5376      0         equ lincon boxed nofix 
+HIER163E  4096      5376      0         equ lincon boxed nofix 
+HIER16    3564      5484      0         equ lincon boxed nofix 
+HILBERTA  2         0         0         unc nlncon nobnd nofix 
+HILBERTB  10        0         0         unc nlncon nobnd nofix 
+HIMMELBA  2         2         0         equ lincon nobnd nofix 
+HIMMELBB  2         0         0         unc nlncon nobnd nofix 
+HIMMELBC  2         2         0         equ nlncon nobnd nofix 
+HIMMELBD  2         2         0         equ nlncon nobnd nofix 
+HIMMELBE  3         3         0         equ lincon nobnd nofix 
+HIMMELBF  4         0         0         unc nlncon nobnd nofix 
+HIMMELBG  2         0         0         unc nlncon nobnd nofix 
+HIMMELBH  2         0         0         unc nlncon nobnd nofix 
+HIMMELBI  100       0         12        inq lincon boxed nofix 
+HIMMELBJ  45        14        0         equ lincon boxed fixed 
+HIMMELBK  24        14        0         equ lincon lower nofix 
+HIMMELP1  2         0         0         unc nlncon boxed nofix 
+HIMMELP2  2         0         1         inq nlncon boxed nofix 
+HIMMELP3  2         0         2         inq nlncon boxed nofix 
+HIMMELP4  2         0         3         inq nlncon boxed nofix 
+HIMMELP5  2         0         3         inq nlncon boxed nofix 
+HIMMELP6  2         0         5         inq lincon boxed nofix 
+HOLMES    180       0         0         unc nlncon lower nofix 
+HONG      4         1         0         equ lincon boxed nofix 
+HS1       2         0         0         unc nlncon lower nofix 
+HS10      2         0         1         inq nlncon nobnd nofix 
+HS100     7         0         4         inq nlncon nobnd nofix 
+HS100LNP  7         2         0         equ nlncon nobnd nofix 
+HS100MOD  7         0         4         inq nlncon nobnd nofix 
+HS101     7         0         5         inq nlncon boxed nofix 
+HS102     7         0         5         inq nlncon boxed nofix 
+HS103     7         0         5         inq nlncon boxed nofix 
+HS104     8         0         5         inq nlncon boxed nofix 
+HS105     8         0         1         inq lincon boxed nofix 
+HS106     8         0         6         inq lincon boxed nofix 
+HS107     9         6         0         equ nlncon boxed nofix 
+HS108     9         0         13        inq nlncon lower nofix 
+HS109     9         6         4         gen lincon boxed nofix 
+HS11      2         0         1         inq nlncon nobnd nofix 
+HS110     10        0         0         unc nlncon boxed nofix 
+HS111     10        3         0         equ nlncon boxed nofix 
+HS111LNP  10        3         0         equ nlncon nobnd nofix 
+HS112     10        3         0         equ lincon lower nofix 
+HS113     10        0         8         inq lincon nobnd nofix 
+HS114     10        3         8         gen lincon boxed nofix 
+HS116     13        0         14        inq lincon boxed nofix 
+HS117     15        0         5         inq nlncon lower nofix 
+HS118     15        0         17        inq lincon boxed nofix 
+HS119     16        8         0         equ lincon boxed nofix 
+HS12      2         0         1         inq nlncon nobnd nofix 
+HS13      2         0         1         inq nlncon lower nofix 
+HS14      2         1         1         gen lincon nobnd nofix 
+HS15      2         0         2         inq nlncon upper nofix 
+HS16      2         0         2         inq nlncon boxed nofix 
+HS17      2         0         2         inq nlncon boxed nofix 
+HS18      2         0         2         inq nlncon boxed nofix 
+HS19      2         0         2         inq nlncon boxed nofix 
+HS2       2         0         0         unc nlncon lower nofix 
+HS20      2         0         3         inq nlncon boxed nofix 
+HS21      2         0         1         inq lincon boxed nofix 
+HS21MOD   7         0         1         inq lincon boxed nofix 
+HS22      2         0         2         inq lincon nobnd nofix 
+HS23      2         0         5         inq lincon boxed nofix 
+HS24      2         0         3         inq lincon lower nofix 
+HS25      3         0         0         unc nlncon boxed nofix 
+HS26      3         1         0         equ nlncon nobnd nofix 
+HS268     5         0         5         inq lincon nobnd nofix 
+HS27      3         1         0         equ nlncon nobnd nofix 
+HS28      3         1         0         equ lincon nobnd nofix 
+HS29      3         0         1         inq nlncon nobnd nofix 
+HS3       2         0         0         unc nlncon lower nofix 
+HS30      3         0         1         inq nlncon boxed nofix 
+HS31      3         0         1         inq nlncon boxed nofix 
+HS32      3         1         1         gen lincon lower nofix 
+HS33      3         0         2         inq nlncon boxed nofix 
+HS34      3         0         2         inq nlncon boxed nofix 
+HS35      3         0         1         inq lincon lower nofix 
+HS35I     3         0         1         inq lincon boxed nofix 
+HS35MOD   3         0         1         inq lincon boxed fixed 
+HS36      3         0         1         inq lincon boxed nofix 
+HS37      3         0         2         inq lincon boxed nofix 
+HS38      4         0         0         unc nlncon boxed nofix 
+HS39      4         2         0         equ nlncon nobnd nofix 
+HS3MOD    2         0         0         unc nlncon lower nofix 
+HS4       2         0         0         unc nlncon lower nofix 
+HS40      4         3         0         equ nlncon nobnd nofix 
+HS41      4         1         0         equ lincon boxed nofix 
+HS42      4         2         0         equ lincon nobnd nofix 
+HS43      4         0         3         inq nlncon nobnd nofix 
+HS44      4         0         6         inq lincon lower nofix 
+HS44NEW   4         0         6         inq lincon lower nofix 
+HS45      5         0         0         unc nlncon boxed nofix 
+HS46      5         2         0         equ nlncon nobnd nofix 
+HS47      5         3         0         equ nlncon nobnd nofix 
+HS48      5         2         0         equ lincon nobnd nofix 
+HS49      5         2         0         equ lincon nobnd nofix 
+HS5       2         0         0         unc nlncon boxed nofix 
+HS50      5         3         0         equ lincon nobnd nofix 
+HS51      5         3         0         equ lincon nobnd nofix 
+HS52      5         3         0         equ lincon nobnd nofix 
+HS53      5         3         0         equ lincon boxed nofix 
+HS54      6         1         0         equ lincon boxed nofix 
+HS55      6         6         0         equ lincon boxed nofix 
+HS56      7         4         0         equ nlncon nobnd nofix 
+HS57      2         0         1         inq nlncon lower nofix 
+HS59      2         0         3         inq nlncon boxed nofix 
+HS6       2         1         0         equ nlncon nobnd nofix 
+HS60      3         1         0         equ nlncon boxed nofix 
+HS61      3         2         0         equ nlncon nobnd nofix 
+HS62      3         1         0         equ lincon boxed nofix 
+HS63      3         2         0         equ lincon lower nofix 
+HS64      3         0         1         inq nlncon lower nofix 
+HS65      3         0         1         inq nlncon boxed nofix 
+HS66      3         0         2         inq nlncon boxed nofix 
+HS67      3         0         14        inq nlncon boxed nofix 
+HS68      4         2         0         equ nlncon boxed nofix 
+HS69      4         2         0         equ nlncon boxed nofix 
+HS7       2         1         0         equ nlncon nobnd nofix 
+HS70      4         0         1         inq nlncon boxed nofix 
+HS71      4         1         1         gen nlncon boxed nofix 
+HS72      4         0         2         inq nlncon boxed nofix 
+HS73      4         1         2         gen lincon lower nofix 
+HS74      4         3         2         gen lincon boxed nofix 
+HS75      4         3         2         gen lincon boxed nofix 
+HS76      4         0         3         inq lincon lower nofix 
+HS76I     4         0         3         inq lincon boxed nofix 
+HS77      5         2         0         equ nlncon nobnd nofix 
+HS78      5         3         0         equ nlncon nobnd nofix 
+HS79      5         3         0         equ nlncon nobnd nofix 
+HS8       2         2         0         equ nlncon nobnd nofix 
+HS80      5         3         0         equ nlncon boxed nofix 
+HS81      5         3         0         equ nlncon boxed nofix 
+HS83      5         0         3         inq nlncon boxed nofix 
+HS84      5         0         3         inq nlncon boxed nofix 
+HS85      5         0         21        inq lincon boxed nofix 
+HS86      5         0         10        inq lincon lower nofix 
+HS87      6         4         0         equ nlncon boxed nofix 
+HS88      2         0         1         inq nlncon nobnd nofix 
+HS89      3         0         1         inq nlncon nobnd nofix 
+HS9       2         1         0         equ lincon nobnd nofix 
+HS90      4         0         1         inq nlncon nobnd nofix 
+HS91      5         0         1         inq nlncon nobnd nofix 
+HS92      6         0         1         inq nlncon nobnd nofix 
+HS93      6         0         2         inq nlncon lower nofix 
+HS95      6         0         4         inq nlncon boxed nofix 
+HS96      6         0         4         inq nlncon boxed nofix 
+HS97      6         0         4         inq nlncon boxed nofix 
+HS98      6         0         4         inq nlncon boxed nofix 
+HS99      7         2         0         equ nlncon boxed nofix 
+HS99EXP   31        21        0         equ nlncon boxed fixed 
+HUBFIT    2         0         1         inq lincon lower nofix 
+HUESTIS   5000      2         0         equ lincon lower nofix 
+HUES-MOD  5000      2         0         equ lincon lower nofix 
+HUMPS     2         0         0         unc nlncon nobnd nofix 
+HVYCRASH  4004      3000      0         equ nlncon boxed fixed 
+HYDC20LS  99        0         0         unc nlncon nobnd nofix 
+HYDCAR20  99        99        0         equ nlncon nobnd nofix 
+HYDCAR6   29        29        0         equ nlncon nobnd nofix 
+HYDROELL  1009      0         1008      inq lincon boxed fixed 
+HYDROELM  505       0         504       inq lincon boxed fixed 
+HYDROELS  169       0         168       inq lincon boxed fixed 
+HYPCIR    2         2         0         equ nlncon nobnd nofix 
+INDEF     5000      0         0         unc nlncon nobnd nofix 
+INDEFM    100000    0         0         unc nlncon nobnd nofix 
+INTEGREQ  502       500       0         equ nlncon boxed fixed 
+JANNSON3  20000     1         2         gen lincon boxed nofix 
+JANNSON4  10000     0         2         inq nlncon boxed nofix 
+JENSMP    2         0         0         unc nlncon nobnd nofix 
+JIMACK    3549      0         0         unc nlncon nobnd nofix 
+JJTABEL3  3025      1650      0         equ lincon boxed nofix 
+JNLBRNG1  10000     0         0         unc nlncon boxed fixed 
+JNLBRNG2  10000     0         0         unc nlncon boxed fixed 
+JNLBRNGA  10000     0         0         unc nlncon boxed fixed 
+JNLBRNGB  10000     0         0         unc nlncon boxed fixed 
+JUNKTURN  10010     7000      0         equ nlncon boxed fixed 
+KISSING   127       42        861       gen nlncon nobnd nofix 
+KISSING2  100       0         625       inq nlncon boxed fixed 
+KIWCRESC  3         0         2         inq nlncon nobnd nofix 
+KOEBHELB  3         0         0         unc nlncon lower nofix 
+KOWOSB    4         0         0         unc nlncon nobnd nofix 
+KSIP      20        0         1001      inq lincon nobnd nofix 
+KSS       1000      1000      0         equ nlncon nobnd nofix 
+KTMODEL   726       450       0         equ lincon boxed fixed 
+LAKES     90        78        0         equ lincon lower nofix 
+LAUNCH    25        9         19        gen lincon boxed nofix 
+LCH       3000      1         0         equ nlncon nobnd nofix 
+LEAKNET   156       153       0         equ lincon boxed nofix 
+LEUVEN1   1530      1196      1024      gen lincon boxed fixed 
+LEUVEN2   1530      1065      1264      gen lincon boxed fixed 
+LEUVEN3   1200      29        2944      gen lincon boxed nofix 
+LEUVEN4   1200      29        2944      gen lincon boxed nofix 
+LEUVEN5   1200      29        2944      gen lincon boxed nofix 
+LEUVEN6   1200      29        3062      gen lincon boxed nofix 
+LEUVEN7   360       0         946       inq lincon boxed nofix 
+LEWISPOL  6         9         0         equ lincon boxed nofix 
+LIARWHD   5000      0         0         unc nlncon nobnd nofix 
+LIN       4         2         0         equ lincon boxed nofix 
+LINCONT   1257      419       0         equ lincon boxed fixed 
+LINSPANH  97        33        0         equ lincon boxed fixed 
+LINVERSE  1999      0         0         unc nlncon lower nofix 
+LIPPERT1  20201     10000     40000     gen lincon lower nofix 
+LIPPERT2  20201     10000     40000     gen lincon lower nofix 
+LISWET1   2002      0         2000      inq lincon nobnd nofix 
+LISWET10  2002      0         2000      inq lincon nobnd nofix 
+LISWET11  2002      0         2000      inq lincon nobnd nofix 
+LISWET12  2002      0         2000      inq lincon nobnd nofix 
+LISWET2   2002      0         2000      inq lincon nobnd nofix 
+LISWET3   2002      0         2000      inq lincon nobnd nofix 
+LISWET4   2002      0         2000      inq lincon nobnd nofix 
+LISWET5   2002      0         2000      inq lincon nobnd nofix 
+LISWET6   2002      0         2000      inq lincon nobnd nofix 
+LISWET7   2002      0         2000      inq lincon nobnd nofix 
+LISWET8   2002      0         2000      inq lincon nobnd nofix 
+LISWET9   2002      0         2000      inq lincon nobnd nofix 
+LMINSURF  5625      0         0         unc nlncon boxed fixed 
+LOADBAL   31        11        20        gen lincon boxed nofix 
+LOBSTERZ  16263     16243     0         equ lincon boxed fixed 
+LOGHAIRY  2         0         0         unc nlncon nobnd nofix 
+LOGROS    2         0         0         unc nlncon lower nofix 
+LOOTSMA   3         0         2         inq nlncon boxed nofix 
+LOTSCHD   12        7         0         equ lincon lower nofix 
+LSNNODOC  5         4         0         equ lincon boxed nofix 
+LSQFIT    2         0         1         inq lincon lower nofix 
+LUBRIF    3751      2500      0         equ lincon boxed fixed 
+LUBRIFC   3751      2500      0         equ lincon boxed fixed 
+LUKVLE1   10000     9998      0         equ nlncon nobnd nofix 
+LUKVLE2   10000     4999      0         equ nlncon nobnd nofix 
+LUKVLE3   10000     2         0         equ nlncon nobnd nofix 
+LUKVLE4   10000     4999      0         equ nlncon nobnd nofix 
+LUKVLE5   10002     9996      0         equ nlncon boxed fixed 
+LUKVLE6   9999      4999      0         equ nlncon nobnd nofix 
+LUKVLE7   10000     4         0         equ nlncon nobnd nofix 
+LUKVLE8   10000     9998      0         equ nlncon nobnd nofix 
+LUKVLE9   10000     6         0         equ nlncon nobnd nofix 
+LUKVLE10  10000     9998      0         equ nlncon nobnd nofix 
+LUKVLE11  9998      6664      0         equ nlncon nobnd nofix 
+LUKVLE12  9997      7497      0         equ nlncon nobnd nofix 
+LUKVLE13  9998      6664      0         equ nlncon nobnd nofix 
+LUKVLE14  9998      6664      0         equ nlncon nobnd nofix 
+LUKVLE15  9997      7497      0         equ nlncon nobnd nofix 
+LUKVLE16  9997      7497      0         equ nlncon nobnd nofix 
+LUKVLE17  9997      7497      0         equ nlncon nobnd nofix 
+LUKVLE18  9997      7497      0         equ nlncon nobnd nofix 
+LUKVLI1   10000     0         9998      inq nlncon nobnd nofix 
+LUKVLI2   10000     0         4999      inq nlncon nobnd nofix 
+LUKVLI3   10000     0         2         inq nlncon nobnd nofix 
+LUKVLI4   10000     0         4999      inq nlncon nobnd nofix 
+LUKVLI5   10002     0         9996      inq nlncon boxed fixed 
+LUKVLI6   9999      0         4999      inq nlncon nobnd nofix 
+LUKVLI7   10000     0         4         inq nlncon nobnd nofix 
+LUKVLI8   10000     0         9998      inq nlncon nobnd nofix 
+LUKVLI9   10000     0         6         inq nlncon nobnd nofix 
+LUKVLI10  10000     0         9998      inq nlncon nobnd nofix 
+LUKVLI11  9998      0         6664      inq nlncon nobnd nofix 
+LUKVLI12  9997      0         7497      inq nlncon nobnd nofix 
+LUKVLI13  9998      0         6664      inq nlncon nobnd nofix 
+LUKVLI14  9998      0         6664      inq nlncon nobnd nofix 
+LUKVLI15  9997      0         7497      inq nlncon nobnd nofix 
+LUKVLI16  9997      0         7497      inq nlncon nobnd nofix 
+LUKVLI17  9997      0         7497      inq nlncon nobnd nofix 
+LUKVLI18  9997      0         7497      inq nlncon nobnd nofix 
+MADSEN    3         0         6         inq nlncon nobnd nofix 
+MADSSCHJ  201       0         398       inq nlncon nobnd nofix 
+MAKELA1   3         0         2         inq lincon nobnd nofix 
+MAKELA2   3         0         3         inq nlncon nobnd nofix 
+MAKELA3   21        0         20        inq nlncon nobnd nofix 
+MAKELA4   21        0         40        inq lincon nobnd nofix 
+MANCINO   100       0         0         unc nlncon nobnd nofix 
+MANNE     6000      0         4000      inq lincon boxed fixed 
+MARATOS   2         1         0         equ nlncon nobnd nofix 
+MARATOSB  2         0         0         unc nlncon nobnd nofix 
+MARINE    11215     11192     0         equ lincon lower nofix 
+MATRIX2   6         0         2         inq nlncon boxed nofix 
+MAXLIKA   8         0         0         unc nlncon boxed nofix 
+MCCORMCK  5000      0         0         unc nlncon boxed nofix 
+MCONCON   15        11        0         equ lincon upper nofix 
+MDHOLE    2         0         0         unc nlncon lower nofix 
+MESH      41        24        24        gen lincon boxed fixed 
+METHANB8  31        31        0         equ nlncon nobnd nofix 
+METHANL8  31        31        0         equ nlncon nobnd nofix 
+METHANOL  12005     11997     0         equ lincon boxed fixed 
+MEXHAT    2         0         0         unc nlncon nobnd nofix 
+MEYER3    3         0         0         unc nlncon nobnd nofix 
+MIFFLIN1  3         0         2         inq lincon nobnd nofix 
+MIFFLIN2  3         0         2         inq nlncon nobnd nofix 
+MINC44    1113      1032      0         equ lincon boxed fixed 
+MINMAXBD  5         0         20        inq nlncon nobnd nofix 
+MINMAXRB  3         0         4         inq lincon nobnd nofix 
+MINPERM   1113      1033      0         equ lincon boxed nofix 
+MINSURF   64        0         0         unc nlncon boxed fixed 
+MINSURFO  5306      0         0         unc nlncon boxed fixed 
+MISTAKE   9         0         13        inq nlncon lower nofix 
+MODBEALE  20000     0         0         unc nlncon nobnd nofix 
+MODEL     1542      23        15        gen lincon boxed fixed 
+MOREBV    5000      0         0         unc nlncon nobnd nofix 
+MOSARQP1  2500      0         700       inq lincon lower nofix 
+MOSARQP2  2500      0         700       inq lincon lower nofix 
+MPC1      2550      1785      2048      gen lincon boxed fixed 
+MPC2      1530      1065      1286      gen lincon boxed fixed 
+MPC3      1530      1065      1286      gen lincon boxed fixed 
+MPC4      1530      1065      1286      gen lincon boxed fixed 
+MPC5      1530      1065      1286      gen lincon boxed fixed 
+MPC6      1530      1065      1286      gen lincon boxed fixed 
+MPC7      1530      1065      1286      gen lincon boxed fixed 
+MPC8      1530      1065      1286      gen lincon boxed fixed 
+MPC9      1530      1065      1286      gen lincon boxed fixed 
+MPC10     1530      1065      1286      gen lincon boxed fixed 
+MPC11     1530      1065      1286      gen lincon boxed fixed 
+MPC12     1530      1065      1286      gen lincon boxed fixed 
+MPC13     1530      1065      1286      gen lincon boxed fixed 
+MPC14     1530      1065      1286      gen lincon boxed fixed 
+MPC15     1530      1065      1286      gen lincon boxed fixed 
+MPC16     1530      1065      1286      gen lincon boxed fixed 
+MRIBASIS  36        9         46        gen lincon boxed fixed 
+MSQRTA    1024      1024      0         equ nlncon nobnd nofix 
+MSQRTALS  1024      0         0         unc nlncon nobnd nofix 
+MSQRTB    1024      1024      0         equ nlncon nobnd nofix 
+MSQRTBLS  1024      0         0         unc nlncon nobnd nofix 
+MSS1      90        73        0         equ nlncon nobnd nofix 
+MSS2      756       703       0         equ nlncon nobnd nofix 
+MSS3      2070      1981      0         equ nlncon nobnd nofix 
+MWRIGHT   5         3         0         equ nlncon nobnd nofix 
+NASH      72        24        0         equ lincon boxed fixed 
+NCB20     5010      0         0         unc nlncon nobnd nofix 
+NCB20B    5000      0         0         unc nlncon nobnd nofix 
+NCVXBQP1  10000     0         0         unc nlncon boxed nofix 
+NCVXBQP2  10000     0         0         unc nlncon boxed nofix 
+NCVXBQP3  10000     0         0         unc nlncon boxed nofix 
+NCVXQP1   10000     5000      0         equ lincon boxed nofix 
+NCVXQP2   10000     5000      0         equ lincon boxed nofix 
+NCVXQP3   10000     5000      0         equ lincon boxed nofix 
+NCVXQP4   10000     2500      0         equ lincon boxed nofix 
+NCVXQP5   10000     2500      0         equ lincon boxed nofix 
+NCVXQP6   10000     2500      0         equ lincon boxed nofix 
+NCVXQP7   10000     7500      0         equ lincon boxed nofix 
+NCVXQP8   10000     7500      0         equ lincon boxed nofix 
+NCVXQP9   10000     7500      0         equ lincon boxed nofix 
+NET1      48        38        19        gen lincon boxed fixed 
+NET2      144       123       37        gen lincon boxed fixed 
+NET3      464       394       127       gen lincon boxed fixed 
+NET4      66816     56736     18288     gen lincon boxed fixed 
+NGONE     200       0         5048      inq lincon boxed fixed 
+NINE12    10399     11362     0         equ lincon boxed nofix 
+NINE5D    10733     17295     0         equ lincon boxed nofix 
+NINENEW   6546      7340      0         equ lincon boxed nofix 
+NLMSURF   5625      0         0         unc nlncon boxed fixed 
+NOBNDTOR  5476      0         0         unc nlncon boxed fixed 
+NONCVXU2  5000      0         0         unc nlncon nobnd nofix 
+NONCVXUN  5000      0         0         unc nlncon nobnd nofix 
+NONDIA    5000      0         0         unc nlncon nobnd nofix 
+NONDQUAR  5000      0         0         unc nlncon nobnd nofix 
+NONMSQRT  4900      0         0         unc nlncon nobnd nofix 
+NONSCOMP  5000      0         0         unc nlncon boxed nofix 
+NUFFIELD  940       0         5000      inq lincon boxed fixed 
+NYSTROM5  18        20        0         equ lincon boxed fixed 
+OBSTCLAE  10000     0         0         unc nlncon boxed fixed 
+OBSTCLAL  10000     0         0         unc nlncon boxed fixed 
+OBSTCLBL  10000     0         0         unc nlncon boxed fixed 
+OBSTCLBM  10000     0         0         unc nlncon boxed fixed 
+OBSTCLBU  10000     0         0         unc nlncon boxed fixed 
+ODC       5184      0         0         unc nlncon boxed fixed 
+ODFITS    10        6         0         equ lincon lower nofix 
+ODNAMUR   11130     0         0         unc nlncon lower nofix 
+OET1      3         0         1002      inq lincon nobnd nofix 
+OET2      3         0         1002      inq nlncon nobnd nofix 
+OET3      4         0         1002      inq lincon nobnd nofix 
+OET4      4         0         1002      inq nlncon nobnd nofix 
+OET5      5         0         1002      inq nlncon nobnd nofix 
+OET6      5         0         1002      inq nlncon nobnd nofix 
+OET7      7         0         1002      inq nlncon nobnd nofix 
+OPTCDEG2  4502      3000      0         equ lincon boxed fixed 
+OPTCDEG3  4502      3000      0         equ lincon boxed fixed 
+OPTCNTRL  32        20        0         equ lincon boxed fixed 
+OPTCTRL3  4502      3000      0         equ lincon boxed fixed 
+OPTCTRL6  4502      3000      0         equ lincon boxed fixed 
+OPTMASS   3010      2004      501       gen lincon boxed fixed 
+OPTPRLOC  30        0         30        inq lincon boxed nofix 
+ORBIT2    2698      1797      300       gen nlncon boxed fixed 
+ORTHRDM2  8003      4000      0         equ nlncon nobnd nofix 
+ORTHRDS2  5003      2500      0         equ nlncon nobnd nofix 
+ORTHREGA  8197      4096      0         equ nlncon nobnd nofix 
+ORTHREGB  27        6         0         equ nlncon nobnd nofix 
+ORTHREGC  5005      2500      0         equ nlncon nobnd nofix 
+ORTHREGD  5003      2500      0         equ nlncon nobnd nofix 
+ORTHREGE  7506      5000      0         equ nlncon lower nofix 
+ORTHREGF  4805      1600      0         equ nlncon lower nofix 
+ORTHRGDM  10003     5000      0         equ nlncon nobnd nofix 
+ORTHRGDS  5003      2500      0         equ nlncon nobnd nofix 
+OSBORNEA  5         0         0         unc nlncon nobnd nofix 
+OSBORNEB  11        0         0         unc nlncon nobnd nofix 
+OSCIGRAD  100000    0         0         unc nlncon nobnd nofix 
+OSCIGRNE  100000    100000    0         equ nlncon nobnd nofix 
+OSCIPANE  10        10        0         equ lincon nobnd nofix 
+OSCIPATH  10        0         0         unc nlncon nobnd nofix 
+OSLBQP    8         0         0         unc nlncon boxed nofix 
+OSORIO    10201     202       0         equ lincon boxed nofix 
+PALMER1   4         0         0         unc nlncon lower nofix 
+PALMER1A  6         0         0         unc nlncon lower nofix 
+PALMER1B  4         0         0         unc nlncon lower nofix 
+PALMER1C  8         0         0         unc nlncon nobnd nofix 
+PALMER1D  7         0         0         unc nlncon nobnd nofix 
+PALMER1E  8         0         0         unc nlncon lower nofix 
+PALMER2   4         0         0         unc nlncon lower nofix 
+PALMER2A  6         0         0         unc nlncon lower nofix 
+PALMER2B  4         0         0         unc nlncon lower nofix 
+PALMER2C  8         0         0         unc nlncon nobnd nofix 
+PALMER2E  8         0         0         unc nlncon lower nofix 
+PALMER3   4         0         0         unc nlncon lower nofix 
+PALMER3A  6         0         0         unc nlncon lower nofix 
+PALMER3B  4         0         0         unc nlncon lower nofix 
+PALMER3C  8         0         0         unc nlncon nobnd nofix 
+PALMER3E  8         0         0         unc nlncon lower nofix 
+PALMER4   4         0         0         unc nlncon lower nofix 
+PALMER4A  6         0         0         unc nlncon lower nofix 
+PALMER4B  4         0         0         unc nlncon lower nofix 
+PALMER4C  8         0         0         unc nlncon nobnd nofix 
+PALMER4E  8         0         0         unc nlncon lower nofix 
+PALMER5A  8         0         0         unc nlncon lower nofix 
+PALMER5B  9         0         0         unc nlncon lower nofix 
+PALMER5C  6         0         0         unc nlncon nobnd nofix 
+PALMER5D  4         0         0         unc nlncon nobnd nofix 
+PALMER5E  8         0         0         unc nlncon lower nofix 
+PALMER6A  6         0         0         unc nlncon lower nofix 
+PALMER6C  8         0         0         unc nlncon nobnd nofix 
+PALMER6E  8         0         0         unc nlncon lower nofix 
+PALMER7A  6         0         0         unc nlncon lower nofix 
+PALMER7C  8         0         0         unc nlncon nobnd nofix 
+PALMER7E  8         0         0         unc nlncon lower nofix 
+PALMER8A  6         0         0         unc nlncon lower nofix 
+PALMER8C  8         0         0         unc nlncon nobnd nofix 
+PALMER8E  8         0         0         unc nlncon lower nofix 
+PARKCH    15        0         0         unc nlncon nobnd nofix 
+PDE1      90602     89401     181194    gen lincon boxed nofix 
+PDE2      180600    89401     181194    gen lincon boxed nofix 
+PENALTY1  1000      0         0         unc nlncon nobnd nofix 
+PENALTY2  200       0         0         unc nlncon nobnd nofix 
+PENALTY3  200       0         0         unc nlncon nobnd nofix 
+PENTAGON  6         0         15        inq lincon nobnd nofix 
+PENTDI    5000      0         0         unc nlncon lower nofix 
+PFIT1     3         3         0         equ nlncon lower nofix 
+PFIT1LS   3         0         0         unc nlncon lower nofix 
+PFIT2     3         3         0         equ nlncon lower nofix 
+PFIT2LS   3         0         0         unc nlncon lower nofix 
+PFIT3     3         3         0         equ nlncon lower nofix 
+PFIT3LS   3         0         0         unc nlncon lower nofix 
+PFIT4     3         3         0         equ nlncon lower nofix 
+PFIT4LS   3         0         0         unc nlncon lower nofix 
+PINENE    8805      8795      0         equ lincon boxed fixed 
+POLAK1    3         0         2         inq nlncon nobnd nofix 
+POLAK2    11        0         2         inq nlncon nobnd nofix 
+POLAK3    12        0         10        inq nlncon nobnd nofix 
+POLAK4    3         0         3         inq nlncon nobnd nofix 
+POLAK5    3         0         2         inq nlncon nobnd nofix 
+POLAK6    5         0         4         inq nlncon nobnd nofix 
+POLYGON   200       0         5049      inq lincon boxed fixed 
+POROUS1   5184      4900      0         equ nlncon boxed fixed 
+POROUS2   5184      4900      0         equ nlncon boxed fixed 
+PORTFL1   12        1         0         equ lincon boxed nofix 
+PORTFL2   12        1         0         equ lincon boxed nofix 
+PORTFL3   12        1         0         equ lincon boxed nofix 
+PORTFL4   12        1         0         equ lincon boxed nofix 
+PORTFL6   12        1         0         equ lincon boxed nofix 
+PORTSNQP  100000    2         0         equ lincon lower nofix 
+PORTSQP   100000    1         0         equ lincon lower nofix 
+POWELL20  5000      0         5000      inq lincon nobnd nofix 
+POWELLBC  1000      0         0         unc nlncon boxed nofix 
+POWELLBS  2         2         0         equ nlncon nobnd nofix 
+POWELLSG  5000      0         0         unc nlncon nobnd nofix 
+POWELLSQ  2         2         0         equ nlncon nobnd nofix 
+POWER     10000     0         0         unc nlncon nobnd nofix 
+PRIMAL1   325       0         85        inq lincon lower nofix 
+PRIMAL2   649       0         96        inq lincon lower nofix 
+PRIMAL3   745       0         111       inq lincon lower nofix 
+PRIMAL4   1489      0         75        inq lincon lower nofix 
+PRIMALC1  230       0         9         inq lincon lower nofix 
+PRIMALC2  231       0         7         inq lincon lower nofix 
+PRIMALC5  287       0         8         inq lincon lower nofix 
+PRIMALC8  520       0         8         inq lincon lower nofix 
+PROBPENL  500       0         0         unc nlncon boxed nofix 
+PRODPL0   60        20        9         gen lincon lower nofix 
+PRODPL1   60        20        9         gen lincon lower nofix 
+PSPDOC    4         0         0         unc nlncon upper nofix 
+PT        2         0         501       inq lincon nobnd nofix 
+QPBAND    50000     0         25000     inq lincon boxed nofix 
+QC        9         0         4         inq lincon boxed fixed 
+QCNEW     9         0         3         inq lincon boxed fixed 
+QPCBLEND  83        43        31        gen lincon lower nofix 
+QPCBOEI1  384       9         342       gen lincon boxed nofix 
+QPCBOEI2  143       4         162       gen lincon boxed nofix 
+QPCSTAIR  467       209       147       gen lincon boxed fixed 
+QPNBAND   50000     0         25000     inq lincon boxed nofix 
+QPNBLEND  83        43        31        gen lincon lower nofix 
+QPNBOEI1  384       9         342       gen lincon boxed nofix 
+QPNBOEI2  143       4         162       gen lincon boxed nofix 
+QPNSTAIR  467       209       147       gen lincon boxed fixed 
+QR3D      610       610       0         equ nlncon lower nofix 
+QR3DBD    457       610       0         equ nlncon lower nofix 
+QR3DLS    610       0         0         unc nlncon lower nofix 
+QRTQUAD   5000      0         0         unc nlncon boxed nofix 
+QUARTC    5000      0         0         unc nlncon nobnd nofix 
+QUDLIN    5000      0         0         unc nlncon boxed nofix 
+RAYBENDL  2050      0         0         unc nlncon boxed fixed 
+RAYBENDS  2050      0         0         unc nlncon boxed fixed 
+READING1  4002      2000      0         equ nlncon boxed fixed 
+READING2  6003      4000      0         equ lincon boxed fixed 
+READING3  4002      2001      0         equ lincon boxed nofix 
+READING4  5001      0         5000      inq nlncon boxed fixed 
+READING5  5001      5000      0         equ nlncon boxed fixed 
+READING6  102       50        0         equ nlncon boxed fixed 
+READING7  1002      500       0         equ nlncon boxed fixed 
+READING8  2002      1000      0         equ nlncon boxed fixed 
+READING9  10002     5000      0         equ nlncon boxed fixed 
+RDW2D52B  132098    65025     0         equ nlncon boxed fixed 
+RDW2D52U  132098    65025     0         equ nlncon boxed fixed 
+RDW2D51F  132098    65025     0         equ nlncon boxed fixed 
+RDW2D51U  132098    65025     0         equ nlncon boxed fixed 
+RDW2D52F  162       49        0         equ nlncon boxed fixed 
+RECIPE    3         3         0         equ lincon nobnd nofix 
+RES       20        12        2         gen lincon boxed nofix 
+RK23      17        11        0         equ lincon lower nofix 
+ROBOT     14        2         0         equ nlncon boxed fixed 
+ROBOTARM  4412      3202      0         equ nlncon boxed fixed 
+ROCKET    2407      2002      0         equ nlncon boxed fixed 
+ROSENBR   2         0         0         unc nlncon nobnd nofix 
+ROSENMMX  5         0         4         inq nlncon nobnd nofix 
+ROTDISC   905       720       361       gen lincon boxed fixed 
+RSNBRNE   2         2         0         equ lincon nobnd nofix 
+S268      5         0         5         inq lincon nobnd nofix 
+S277-280  4         0         4         inq lincon lower nofix 
+S308      2         0         0         unc nlncon nobnd nofix 
+S316-322  2         1         0         equ nlncon nobnd nofix 
+S365      7         0         5         inq nlncon lower nofix 
+S365MOD   7         0         5         inq nlncon lower nofix 
+S368      8         0         0         unc nlncon boxed nofix 
+SARO      4754      4015      0         equ nlncon boxed fixed 
+SAROMM    5120      4380      730       gen lincon boxed fixed 
+SAWPATH   583       578       196       gen lincon boxed fixed 
+SBRYBND   5000      0         0         unc nlncon nobnd nofix 
+SCHMVETT  5000      0         0         unc nlncon nobnd nofix 
+SCOND1LS  5002      0         0         unc nlncon boxed fixed 
+SCOSINE   5000      0         0         unc nlncon nobnd nofix 
+SCURLY10  10000     0         0         unc nlncon nobnd nofix 
+SCURLY20  10000     0         0         unc nlncon nobnd nofix 
+SCURLY30  10000     0         0         unc nlncon nobnd nofix 
+SEMICN2U  5002      5000      0         equ nlncon boxed fixed 
+SEMICON1  5002      5000      0         equ nlncon boxed fixed 
+SEMICON2  5002      5000      0         equ nlncon boxed fixed 
+SENSORS   100       0         0         unc nlncon nobnd nofix 
+SIM2BQP   2         0         0         unc nlncon boxed fixed 
+SIMBQP    2         0         0         unc nlncon boxed nofix 
+SIMPLLPA  2         0         2         inq lincon lower nofix 
+SIMPLLPB  2         0         3         inq lincon lower nofix 
+SINEALI   1000      0         0         unc nlncon boxed nofix 
+SINEVAL   2         0         0         unc nlncon nobnd nofix 
+SINVALNE  2         2         0         equ lincon nobnd nofix 
+SINQUAD   5000      0         0         unc nlncon nobnd nofix 
+SINROSNB  1000      0         999       inq nlncon boxed nofix 
+SIPOW1    2         0         2000      inq lincon nobnd nofix 
+SIPOW1M   2         0         2000      inq lincon nobnd nofix 
+SIPOW2    2         0         2000      inq lincon nobnd nofix 
+SIPOW2M   2         0         2000      inq lincon nobnd nofix 
+SIPOW3    4         0         2000      inq lincon nobnd nofix 
+SIPOW4    4         0         2000      inq lincon nobnd nofix 
+SISSER    2         0         0         unc nlncon nobnd nofix 
+SMBANK    117       64        0         equ lincon boxed nofix 
+SMMPSF    720       240       23        gen lincon lower nofix 
+SNAIL     2         0         0         unc nlncon nobnd nofix 
+SNAKE     2         0         2         inq nlncon nobnd nofix 
+SOSQP1    5000      2501      0         equ lincon boxed nofix 
+SOSQP2    5000      2501      0         equ lincon boxed nofix 
+SPANHYD   97        33        0         equ lincon boxed fixed 
+SPARSINE  5000      0         0         unc nlncon nobnd nofix 
+SPARSQUR  10000     0         0         unc nlncon nobnd nofix 
+SPECAN    9         0         0         unc nlncon boxed nofix 
+SPIN      1327      1325      0         equ nlncon nobnd nofix 
+SPINOP    1327      1325      0         equ nlncon nobnd nofix 
+SPIN2     102       100       0         equ nlncon nobnd nofix 
+SPIN2OP   102       100       0         equ nlncon nobnd nofix 
+SPIRAL    3         0         2         inq nlncon nobnd nofix 
+SPMSQRT   4999      8329      0         equ nlncon nobnd nofix 
+SPMSRTLS  4999      0         0         unc nlncon nobnd nofix 
+SREADIN3  4002      2001      0         equ lincon boxed nofix 
+SROSENBR  5000      0         0         unc nlncon nobnd nofix 
+SSBRYBND  5000      0         0         unc nlncon nobnd nofix 
+SSC       5184      0         0         unc nlncon boxed fixed 
+SSCOSINE  10        0         0         unc nlncon nobnd nofix 
+SSEBLIN   194       48        24        gen lincon boxed fixed 
+SSEBNLN   194       72        24        gen lincon boxed fixed 
+SSNLBEAM  3003      2000      0         equ lincon boxed fixed 
+STANCMIN  3         0         2         inq lincon lower nofix 
+STATIC3   434       96        0         equ lincon lower nofix 
+STCQP1    8193      4095      0         equ lincon boxed nofix 
+STCQP2    8193      4095      0         equ lincon boxed nofix 
+STEENBRA  432       108       0         equ lincon lower nofix 
+STEENBRB  468       108       0         equ lincon lower nofix 
+STEENBRC  540       126       0         equ lincon lower nofix 
+STEENBRD  468       108       0         equ lincon lower nofix 
+STEENBRE  540       126       0         equ lincon lower nofix 
+STEENBRF  468       108       0         equ lincon lower nofix 
+STEENBRG  540       126       0         equ lincon lower nofix 
+STEERING  2006      1600      0         equ nlncon boxed fixed 
+STNQP1    8193      4095      0         equ lincon boxed nofix 
+STNQP2    8193      4095      0         equ lincon boxed nofix 
+STRATEC   10        0         0         unc nlncon nobnd nofix 
+SUPERSIM  2         2         0         equ lincon lower nofix 
+SVANBERG  5000      0         5000      inq nlncon boxed nofix 
+SWOPF     83        78        14        gen lincon boxed nofix 
+SYNPOP24  6968      7353      0         equ lincon lower nofix 
+SYNTHES1  6         0         6         inq lincon boxed nofix 
+SYNTHES2  11        1         13        gen lincon boxed nofix 
+SYNTHES3  17        2         21        gen lincon boxed nofix 
+TABLE1    1584      510       0         equ lincon boxed nofix 
+TABLE3    4992      2464      0         equ lincon boxed nofix 
+TABLE4    4992      2464      0         equ lincon boxed nofix 
+TABLE5    4992      2464      0         equ lincon boxed nofix 
+TABLE6    1584      510       0         equ lincon boxed nofix 
+TABLE7    624       230       0         equ lincon boxed nofix 
+TABLE8    1271      72        0         equ lincon boxed nofix 
+TAME      2         1         0         equ lincon lower nofix 
+TARGUS    162       63        0         equ lincon boxed nofix 
+TENBARS1  18        8         1         gen lincon lower nofix 
+TENBARS2  18        8         0         equ nlncon lower nofix 
+TENBARS3  18        8         0         equ nlncon lower nofix 
+TENBARS4  18        8         1         gen lincon lower nofix 
+TESTQUAD  5000      0         0         unc nlncon nobnd nofix 
+TFI1      3         0         101       inq nlncon nobnd nofix 
+TFI2      3         0         101       inq lincon nobnd nofix 
+TFI3      3         0         101       inq lincon nobnd nofix 
+TOINTGOR  50        0         0         unc nlncon nobnd nofix 
+TOINTGSS  5000      0         0         unc nlncon nobnd nofix 
+TOINTPSP  50        0         0         unc nlncon nobnd nofix 
+TOINTQOR  50        0         0         unc nlncon nobnd nofix 
+TORSION1  5476      0         0         unc nlncon boxed fixed 
+TORSION2  5476      0         0         unc nlncon boxed fixed 
+TORSION3  5476      0         0         unc nlncon boxed fixed 
+TORSION4  5476      0         0         unc nlncon boxed fixed 
+TORSION5  5476      0         0         unc nlncon boxed fixed 
+TORSION6  5476      0         0         unc nlncon boxed fixed 
+TORSIONA  5476      0         0         unc nlncon boxed fixed 
+TORSIONB  5476      0         0         unc nlncon boxed fixed 
+TORSIONC  5476      0         0         unc nlncon boxed fixed 
+TORSIOND  5476      0         0         unc nlncon boxed fixed 
+TORSIONE  5476      0         0         unc nlncon boxed fixed 
+TORSIONF  5476      0         0         unc nlncon boxed fixed 
+TOYSARAH  2890      1649      0         equ lincon boxed nofix 
+TQUARTIC  5000      0         0         unc nlncon nobnd nofix 
+TRAINF    4008      2002      0         equ lincon boxed fixed 
+TRAINH    4008      2002      0         equ lincon boxed fixed 
+TRIDIA    5000      0         0         unc nlncon nobnd nofix 
+TRIGGER   7         6         0         equ lincon boxed fixed 
+TRIMLOSS  142       20        55        gen lincon boxed nofix 
+TRO11X3   150       60        1         gen lincon lower nofix 
+TRO21X5   540       200       1         gen lincon lower nofix 
+TRO3X3    30        12        1         gen lincon lower nofix 
+TRO41X9   2040      720       1         gen lincon lower nofix 
+TRO4X4    63        24        1         gen lincon lower nofix 
+TRO5X5    108       40        1         gen lincon lower nofix 
+TRO6X2    45        20        1         gen lincon lower nofix 
+TRUSPYR1  11        3         1         gen lincon lower nofix 
+TRUSPYR2  11        3         8         gen lincon lower nofix 
+TRY-B     2         1         0         equ nlncon lower nofix 
+TWIRISM1  343       224       89        gen lincon boxed nofix 
+TWIRIMD1  1247      521       191       gen lincon boxed nofix 
+TWIRIBG1  3127      922       317       gen lincon boxed nofix 
+TWOBARS   2         0         2         inq nlncon boxed nofix 
+TWOD      70521     67080     0         equ lincon boxed fixed 
+TWO5IN6   5681      9629      0         equ lincon boxed nofix 
+UBH1      9009      6000      0         equ lincon boxed fixed 
+UBH5      5010      3500      0         equ lincon boxed fixed 
+VANDERM1  100       100       99        gen lincon nobnd nofix 
+VANDERM2  100       100       99        gen lincon nobnd nofix 
+VANDERM3  100       100       99        gen lincon nobnd nofix 
+VANDERM4  100       100       99        gen lincon nobnd nofix 
+VARDIM    200       0         0         unc nlncon nobnd nofix 
+VAREIGVL  50        0         0         unc nlncon nobnd nofix 
+VIBRBEAM  8         0         0         unc nlncon nobnd nofix 
+WACHBIEG  3         2         0         equ lincon lower nofix 
+WALL10    1461      0         0         unc nlncon lower nofix 
+WALL20    5924      0         0         unc nlncon lower nofix 
+WALL50    37311     0         0         unc nlncon lower nofix 
+WALL100   149624    0         0         unc nlncon lower nofix 
+WATER     31        10        0         equ lincon boxed nofix 
+WATSON    12        0         0         unc nlncon nobnd nofix 
+WEEDS     3         0         0         unc nlncon boxed nofix 
+WOMFLET   3         0         3         inq nlncon nobnd nofix 
+WOODS     4000      0         0         unc nlncon nobnd nofix 
+WOODSNE   4000      3001      0         equ lincon nobnd nofix 
+YAO       2002      0         2000      inq lincon boxed fixed 
+YATP1SQ   123200    123200    0         equ nlncon nobnd nofix 
+YATP2SQ   123200    123200    0         equ nlncon nobnd nofix 
+YFIT      3         0         0         unc nlncon lower nofix 
+YFITNE    3         17        0         equ nlncon nobnd nofix 
+YFITU     3         0         0         unc nlncon nobnd nofix 
+YORKNET   312       256       0         equ lincon boxed nofix 
+ZAMB2     3966      1440      0         equ nlncon boxed fixed 
+ZAMB2-8   138       48        0         equ nlncon boxed fixed 
+ZAMB2-9   138       48        0         equ nlncon boxed fixed 
+ZAMB2-10  270       96        0         equ nlncon boxed fixed 
+ZAMB2-11  270       96        0         equ nlncon boxed fixed 
+ZANGWIL2  2         0         0         unc nlncon nobnd nofix 
+ZANGWIL3  3         3         0         equ lincon nobnd nofix 
+ZECEVIC2  2         0         2         inq lincon boxed nofix 
+ZECEVIC3  2         0         2         inq nlncon boxed nofix 
+ZECEVIC4  2         0         2         inq lincon boxed nofix 
+ZIGZAG    3004      2000      500       gen lincon boxed fixed 
+ZY2       3         0         2         inq nlncon boxed nofix 

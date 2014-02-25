@@ -66,7 +66,8 @@ options = {
   "linearity" => "lincon,nlncon",
   "constr_type" => "unc,equ,inq,gen",
   "bounds" => "boxed,lower,upper,nobnd",
-  "fixed_var" => "fixed,nofix"
+  "fixed_var" => "fixed,nofix",
+  "use_slack" => "true,false"
 }
 
 #puts "Selecting options from the file " + filename
@@ -104,11 +105,17 @@ class_file.each.zip(decoder_file.each).each do |line1, line2|
   end
 
   nvar = line2.split[1].to_i
-  ncon = line2.split[2].to_i
-  constr = line2.split[3].split(',')
-  linear = line2.split[4].split(',')
-  bound  = line2.split[5].split(',')
-  fixed  = line2.split[6].split(',')
+  nconE = line2.split[2].to_i
+  nconI = line2.split[3].to_i
+  constr = line2.split[4].split(',')
+  linear = line2.split[5].split(',')
+  bound  = line2.split[6].split(',')
+  fixed  = line2.split[7].split(',')
+
+  if (options["use_slack"] == "true")
+    nvar += nconI
+  end
+  ncon = nconE + nconI
 
   if (options["min_nvar"].to_i <= nvar &&
       nvar <= options["max_nvar"].to_i &&

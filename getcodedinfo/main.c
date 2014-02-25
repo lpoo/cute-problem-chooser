@@ -79,9 +79,9 @@ int MAINENTRY () {
   integer efirst = 0, lfirst = 0, nvfirst = 0;
   char pname[10], *vnames, *cnames;
   char fname[10] = "OUTSDIF.d";
-  integer nvar = 0, ncon = 0;
+  integer nvar = 0, ncon = 0, nconE = 0, nconI = 0;
   integer funit = 42, ierr = 0, fout = 6, io_buffer = 11, status;
-
+  integer i;
 
   FORTRAN_open(&funit, fname, &ierr);
   CUTEST_cdimen(&status, &funit, &nvar, &ncon);
@@ -105,13 +105,21 @@ int MAINENTRY () {
     CUTEST_csetup(&status, &funit, &fout, &io_buffer, &nvar, &ncon, x, bl, bu, 
         y, cl, cu, equatn, linear, &efirst, &lfirst, &nvfirst);
 
+    for (i = 0; i < ncon; i++) {
+      if (equatn[i] == true)
+        nconE++;
+      else
+        nconI++;
+    }
+
     CUTEST_cnames(&status, &nvar, &ncon, pname, vnames, cnames);
   } else {
     CUTEST_usetup(&status, &funit, &fout, &io_buffer, &nvar, x, bl, bu);
     CUTEST_unames(&status, &nvar, pname, vnames);
   }
-
-  printf("%9s %-9d %-9d ", pname, nvar, ncon);
+  
+  pname[9] = 0;
+  printf("%9s %-9d %-9d %-9d ", pname, nvar, nconE, nconI);
   classify_constr(ncon, equatn);
   classify_linear(ncon, linear);
   classify_bounds(nvar, bl, bu);
